@@ -34,15 +34,13 @@ class Parse:
                         vocab[counter][1][c]['example'] = []
                         for SenseExample in LexicalEntry.find('Sense').findall('SenseExample'):
                             feat = SenseExample.findall('feat')
-                            vocab[counter][1][c]['example'].append(f'    <li>{feat[1].get("val")}</li>\n')
+                            for i in range(1, len(feat)):
+                                vocab[counter][1][c]['example'].append(f'    <li>{feat[i].get("val")}</li>\n')
                         examples = ' '.join(vocab[counter][1][c]['example'])
                         vocab[counter][1][c]['example'] = examples
                         c += 1
                     counter += 1
+
         return vocab
-
-
-
-
 
 

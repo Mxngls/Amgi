@@ -1,0 +1,40 @@
+* {
+ font-family: Arial;
+}
+.card {
+ font-size: 26px;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+.hangul {
+  text-align: center;
+  font-size: 26px;
+}
+.definition {
+  color: #AD9FAB;
+  text-align: center;
+  font-size: 20px;
+}
+.tags {
+  text-align: center;
+  font-size: 14px;
+}
+#Examples {
+  font-size: 26px;
+  display: none;
+}
+ul {
+   margin-left: 0px;
+   text-align: left;
+   list-style: circle;
+}
+ul li:before {
+   font-size: 70%;
+   padding-right: 15px;
+   vertical-align: middle;
+}
+#Link {
+    text-decoration: underline;
+    color: #72caff;
+}

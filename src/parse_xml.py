@@ -13,7 +13,6 @@ class Parse:
 
         vocab = []
         counter = 0
-        Senses = []
 
         for LexicalEntry in root.iter('LexicalEntry'):
             for feat in LexicalEntry.findall('feat'):

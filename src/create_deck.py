@@ -108,9 +108,3 @@ def create_deck(file):
             anki_deck.add_note(anki_note)
         anki_package.write_to_file(deck)
 
-
-
-
-
-
-

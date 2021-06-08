@@ -4,8 +4,9 @@ from collections import OrderedDict
 def parse_xml(file):
     
     # Set an XML-tree and its root.
-    tree = ET.parse(file_name)
+    tree = ET.parse(file)
     root = tree.getroot()
+    file_name = file
 
     # Create an empty list to store the dictionary entries in and create a counter for each entry.
     vocab = []
@@ -60,4 +61,4 @@ def parse_xml(file):
                     senses += 1
                 counter += 1
 
-    return vocab
+    return vocab, file_name

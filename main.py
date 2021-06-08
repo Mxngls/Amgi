@@ -1,6 +1,6 @@
-from parse_xml import parse_xml
-from create_csv import create_csv
-from create_deck import create_deck
+from src.parse_xml import parse_xml
+from src.create_csv import create_csv
+from src.create_deck import create_deck
 
 def main():
 

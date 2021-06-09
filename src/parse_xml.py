@@ -42,11 +42,11 @@ def parse_xml(file):
                         if SenseExample.find('feat').get('val') == "구" or SenseExample.find('feat').get('val') == "대화":                              
                             if SenseExample.find('feat').get('val') == "대화":
                                 for word in vocab[counter][0]['wordForm']:
-                                    example_1 = f'    <li>나: {SenseExample.findall("feat")[1].get("val")}</li>'
+                                    example_1 = f'    <li>나: {SenseExample.findall("feat")[1].get("val")}'
                                     example_1 = example_1.replace(word, f'<span style="color: #9400D3">{word}</span>')
-                                    vocab[counter][1][senses]['example'].append(example_1)
-                                    example_2 = f'    <li>너: {SenseExample.findall("feat")[2].get("val")}</li>'
+                                    example_2 = f'    너: {SenseExample.findall("feat")[2].get("val")}</li>'
                                     example_2 = example_2.replace(word, f'<span style="color: #9400D3">{word}</span>')
+                                    ex = example_1 + '</br>' + example_2
                                     vocab[counter][1][senses]['example'].append(example_2)
                                     break
                             else:

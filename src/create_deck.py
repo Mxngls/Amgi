@@ -92,11 +92,12 @@ def create_deck(file):
 
     data = open(file, 'r')
     filereader = csv.reader(data, delimiter=',', quotechar='|')
-    for row in filereader:
+    for i, row in enumerate(filereader):
         anki_note = genanki.Note(
             model=anki_model,
             fields=[row[3], row[5], row[6], row[8], row[1] + ' | ' + row[2]],
-            tags=[row[1].replace(" ", ""), row[2].replace(" ", "")]
+            tags=[row[1].replace(" ", ""), row[2].replace(" ", "")],
+            due=i
         )
         anki_notes.append(anki_note)
     anki_notes.pop(0)   

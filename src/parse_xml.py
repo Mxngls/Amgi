@@ -30,15 +30,15 @@ def parse_xml(file):
                     vocab[counter][0]['wordForm'].append(wf)
 
                 senses = 0
-                for Sense in LexicalEntry.findall('Sense'):
+                for i, Sense in enumerate(LexicalEntry.findall('Sense')):
                     vocab[counter][1].append({})
-                    vocab[counter][1][senses]['sense_id'] = Sense.get('val')
-                    vocab[counter][1][senses]['translation'] = Sense.find('Equivalent').findall('feat')[1].get('val')
-                    vocab[counter][1][senses]['definition'] = Sense.find('Equivalent').findall('feat')[2].get('val')
-                    vocab[counter][1][senses]['krDefintion'] = Sense.find('feat').get('val')
-                    vocab[counter][1][senses]['example'] = []
+                    vocab[counter][1][i]['sense_id'] = Sense.get('val')
+                    vocab[counter][1][i]['translation'] = Sense.find('Equivalent').findall('feat')[1].get('val')
+                    vocab[counter][1][i]['definition'] = Sense.find('Equivalent').findall('feat')[2].get('val')
+                    vocab[counter][1][i]['krDefintion'] = Sense.find('feat').get('val')
+                    vocab[counter][1][i]['example'] = []
 
-                    for SenseExample in LexicalEntry.find('Sense').findall('SenseExample'):
+                    for SenseExample in Sense.findall('SenseExample'):
                         if SenseExample.find('feat').get('val') == "구" or SenseExample.find('feat').get('val') == "대화":                              
                             if SenseExample.find('feat').get('val') == "대화":
                                 for word in vocab[counter][0]['wordForm']:
@@ -47,17 +47,17 @@ def parse_xml(file):
                                     example_2 = f'    너: {SenseExample.findall("feat")[2].get("val")}</li>'
                                     example_2 = example_2.replace(word, f'<span style="color: #9400D3">{word}</span>')
                                     ex = example_1 + '</br>' + example_2
-                                    vocab[counter][1][senses]['example'].append(example_2)
+                                    vocab[counter][1][i]['example'].append(example_2)
                                     break
                             else:
                                 for word in vocab[counter][0]['wordForm']:
                                     if word in SenseExample.findall("feat")[1].get("val"):
                                         example_3 = f'    <li>{SenseExample.findall("feat")[1].get("val")}</li>'
                                         example_3 = example_3.replace(word, f'<span style="color: #9400D3">{word}</span>')
-                                        vocab[counter][1][senses]['example'].append(example_3)
+                                        vocab[counter][1][i]['example'].append(example_3)
                                         
-                    examples = '\n'.join(vocab[counter][1][senses]['example'])
-                    vocab[counter][1][senses]['example'] = examples
+                    examples = '\n'.join(vocab[counter][1][i]['example'])
+                    vocab[counter][1][i]['example'] = examples
                     senses += 1
                 counter += 1
 

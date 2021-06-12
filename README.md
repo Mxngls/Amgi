@@ -25,8 +25,7 @@ When downloading a list of words that you want to create some flash cards for ch
 You will be prompted to type in the name of the downloaded file that is to be parsed and from which flash cards are to be generated (As the script creates a new Anki deck which will be named after the file name I suggest choosing a meaningful file name).
 
 In the end for all of the words from the list of the [Korean Learners Dictionary's](https://krdict.korean.go.kr/mainAction) website a pair of flash cards will be created.
-See this example:
-Example.jpeg![Example](https://user-images.githubusercontent.com/59572969/121784451-5117d400-cbb4-11eb-8eb9-ff743828a6a6.jpeg)
+See this example: https://user-images.githubusercontent.com/59572969/121784451-5117d400-cbb4-11eb-8eb9-ff743828a6a6.jpeg
 
 ## Lisence
 This project is licensed under the terms of the MIT license.

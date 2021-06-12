@@ -20,9 +20,9 @@ Just click on the big green button on upper right corner or run:
 ```git clone https://github.com/mxngls/Gmail-Cleaner.git```
 
 ## Usage
-When downloading a list of words that you want to create some flash cards for choose XML as file type and save the downloaded file in the ```data/xml_files``` directory.
-Then switch to the Amgi directory and run: ```python3 main.py```
-You will be prompted to type in the name of the downloaded file that is to be parsed and which from flash cards cards are to be generated (As the script creates a new Anki deck which will be named after the file name I suggest choosing a meaningful file name).
+When downloading a list of words that you want to create some flash cards for choose XML as file type and save the downloaded file in the ```data/xml_files``` directory. Then switch to the Amgi directory and run: ```python3 main.py```
+
+You will be prompted to type in the name of the downloaded file that is to be parsed and from which flash cards are to be generated (As the script creates a new Anki deck which will be named after the file name I suggest choosing a meaningful file name).
 
 ## Lisence
 This project is licensed under the terms of the MIT license.

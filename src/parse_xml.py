@@ -59,6 +59,8 @@ def parse_xml(file):
                     examples = '\n'.join(vocab[counter][1][i]['example'])
                     vocab[counter][1][i]['example'] = examples
                     senses += 1
+                    if senses > 3
+                        break
                 counter += 1
 
     return vocab, file_name

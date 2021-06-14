@@ -18,7 +18,7 @@ def create_csv(vocab, file_name):
                if len(word[1]) > 1:
                     for i, Sense in enumerate(word[1]):
                          filewriter.writerow([word[0]['id'], word[0]['subjectCategory'], word[0]['vocabularyLevel'],
-                                              f"<span>{word[0]['hangul']}<sup style='font-size: 85%'>{SenseIndex[i]}</sup></span>", 
+                                              f"<span>{word[0]['hangul']}<sup style='font-size: 75%'>{SenseIndex[i]}</sup></span>", 
                                               word[1][i]['sense_id'], word[1][i]['translation'],
                                               word[1][i]['definition'], word[1][i]['krDefintion'], word[1][i]['example']])
                          if i > 2:

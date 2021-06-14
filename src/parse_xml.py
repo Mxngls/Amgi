@@ -47,7 +47,7 @@ def parse_xml(file):
                                     example_2 = f'    너: {SenseExample.findall("feat")[2].get("val")}</li>'
                                     example_2 = example_2.replace(word, f'<span style="color: #9400D3">{word}</span>')
                                     ex = example_1 + '</br>' + example_2
-                                    vocab[counter][1][i]['example'].append(example_2)
+                                    vocab[counter][1][i]['example'].append(ex)
                                     break
                             else:
                                 for word in vocab[counter][0]['wordForm']:

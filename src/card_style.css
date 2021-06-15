@@ -21,7 +21,7 @@
   font-size: 14px;
 }
 #Examples {
-  font-size: 22px;
+  font-size: 20px;
   display: none;
 }
 ul {
@@ -37,4 +37,5 @@ ul li:before {
 #Link {
     text-decoration: underline;
     color: #72caff;
+  font-size: 20px;
 }

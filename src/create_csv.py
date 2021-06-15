@@ -11,7 +11,7 @@ def create_csv(vocab, file_name):
           filewriter.writerow(fields)
 
           # An index for the different Senses.
-          SenseIndex = ['a', 'b', 'c', 'd']
+          SenseIndex = ['a', 'b']
 
           # Populate the created CSV-file.
           for word in vocab:
@@ -21,12 +21,17 @@ def create_csv(vocab, file_name):
                                               f"<span>{word[0]['hangul']}<sup style='font-size: 75%'>{SenseIndex[i]}</sup></span>", 
                                               word[1][i]['sense_id'], word[1][i]['translation'],
                                               word[1][i]['definition'], word[1][i]['krDefintion'], word[1][i]['example']])
-                         if i > 2:
+                         if i > 0:
                               break
                else:
-                    filewriter.writerow([word[0]['id'], word[0]['subjectCategory'], word[0]['vocabularyLevel'],
-                                         word[0]['hangul'], word[1][0]['sense_id'], word[1][0]['translation'],
-                                         word[1][0]['definition'], word[1][0]['krDefintion'], word[1][0]['example']])
+                    if int(word[0]['homonym_number']) > 0:
+                         filewriter.writerow([word[0]['id'], word[0]['subjectCategory'], word[0]['vocabularyLevel'],
+                                              f"<span>{word[0]['hangul']}<sub style='font-size: 75%'>{word[0]['homonym_number']}", word[1][0]['sense_id'], word[1][0]['translation'],
+                                              word[1][0]['definition'], word[1][0]['krDefintion'], word[1][0]['example']])
+                    else:
+                         filewriter.writerow([word[0]['id'], word[0]['subjectCategory'], word[0]['vocabularyLevel'],
+                                              word[0]['hangul'], word[1][0]['sense_id'], word[1][0]['translation'],
+                                              word[1][0]['definition'], word[1][0]['krDefintion'], word[1][0]['example']])
 
      return file_name.replace('xml', 'csv')
      

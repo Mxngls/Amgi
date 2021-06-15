@@ -20,6 +20,7 @@ def parse_xml(file):
                 vocab.append([])
                 vocab[counter] = [{'hangul': LexicalEntry.find('Lemma').find('feat').get('val')}]
                 vocab[counter][0]['id'] = LexicalEntry.get('val')
+                vocab[counter][0]['homonym_number'] = LexicalEntry.find('feat').get('val')
                 vocab[counter][0]['vocabularyLevel'] = LexicalEntry.findall('feat')[-3].get('val')
                 vocab[counter][0]['subjectCategory'] = LexicalEntry.findall('feat')[-2].get('val')
                 vocab[counter][0]['wordForm'] = [vocab[counter][0]['hangul']]
@@ -55,6 +56,7 @@ def parse_xml(file):
                                         example_3 = f'    <li>{SenseExample.findall("feat")[1].get("val")}</li>'
                                         example_3 = example_3.replace(word, f'<span style="color: #9400D3">{word}</span>')
                                         vocab[counter][1][i]['example'].append(example_3)
+                                        break
                                         
                     examples = '\n'.join(vocab[counter][1][i]['example'])
                     vocab[counter][1][i]['example'] = examples

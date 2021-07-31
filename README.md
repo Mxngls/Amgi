@@ -1,31 +1,48 @@
-# Amgi
-A handy python script that helps automating the normally tedious process of creating cards for Anki.
-
+# Gmail-Cleaner
+A short command line tool written in python that works with the Gmail-API and helps you organize and clean up your gmail inbox.
 ## Introduction
-[Anki](https://apps.ankiweb.net/) is an indispensable tool for everyone learning a foreign language. If you somehow stumbled upon this small app I suppose you already know what it is. If by chance not I highly encourage to check it out. It is of tremendous use even beyond the study of languages. The creation of personalized flash cards for Anki can be incredible time consuming though. Even to create one signle card for a word that you looked up at some online dictionary with all the information that a single entry has to offer can take minutes, which multiplicates onto hours if you try to add a bunch of them together. 
-
-There are incredible ressources for other languages like Japanese to help with the creation of Anki flash cards, but unfortunately I haven't found a good one for Korean yet. So I just thought I might as well create one myself!
-
-### The Basic Korean Dictionary
-As someone who is currently learning Korean I have been on the look for a good online dictionary for quite some time now. Luckily I found one in the [Basic Korean Dictionary](https://krdict.korean.go.kr/eng/mainAction?nation=eng) of the National Institute of the Korean Language. But even better than just the dictionary itself are the premade vocabulary list which are grouped by topic and ranked in order of their level of difficulty, ranging from beginner to advanced. While starting out to learn a new languge I consider the most important part the acquisition of a solid base vocabulary. These [lists](https://krdict.korean.go.kr/eng/dicSearchDetail/searchDetailActCategory?nation=eng&nationCode=6&searchFlag=N&sort=W&currentPage=1&ParaWordNo=&syllablePosition=&actCategoryList=&all_gubun=ALL&gubun=W&gubun=P&gubun=E&all_wordNativeCode=ALL&wordNativeCode=1&wordNativeCode=2&wordNativeCode=3&wordNativeCode=0&all_sp_code=ALL&sp_code=1&sp_code=2&sp_code=3&sp_code=4&sp_code=5&sp_code=6&sp_code=7&sp_code=8&sp_code=9&sp_code=10&sp_code=11&sp_code=12&sp_code=13&sp_code=14&sp_code=27&all_imcnt=ALL&imcnt=1&imcnt=2&imcnt=3&imcnt=0&all_multimedia=ALL&multimedia=P&multimedia=I&multimedia=V&multimedia=A&multimedia=S&multimedia=N&searchSyllableStart=&searchSyllableEnd=&searchOp=AND&searchTarget=word&searchOrglanguage=all&wordCondition=wordAll&query=&myViewWord=25039) may be the best way to build this foundation as fast as possible if you are a new Korean learner.
-
+This small script will help you clean up and organize your gmail inbox. Over the years our inbox get's crammed with
+different kind of junk that no one really wished for: numerous newsletters that we for some reason subscribed to but never read,
+annoying advertisments in all shapes and colors, and so on. My inbox for example got really full with notifications from various job portals
+like LinkdeIn. As I didn't found an easy way to clean up my Gmail inbox with the standard Gmail web client I just created my own way 
+of 'spring-cleaning' my inbox.
+There are different functions included that let you delete emails from a specific sender or mark them as spam. Just try it out
+and use it for yourself!
 ## Prerequisites
-In order to download and create lists you have at first create an account at the [website](https://krdict.korean.go.kr/login/login) of the National Institute of the Korean Language. It's in Korean, but it's not too hard if you just use a common tool like [Google Translate](https://translate.google.de/) or [Papago](https://papago.naver.com/?sk=ko&tk=en).
+Basically there are just three things you need to run that script:
+1. Python. (I used Python 3.9 but it should work with other version up from 3.6)
+2. A Google account with Gmail enabled.
+3. The pip package management tool.
+### Enabling the Gmail API
+In addition to the three prerequisites listed above you need to enable the Gmail API.
+To do so just follow the instructions regarding: 
+- creating a [Google Cloud Platform project with the API enabled](https://developers.google.com/workspace/guides/create-project).
+- creating the [necessary credentials used for involved OAuth authorization](https://developers.google.com/workspace/guides/create-credentials) 
+### Installing the google client library:
+Finally the last thing to do is installing the Google client library.
+To install it just run:
 
-In addition you should have Python (I used 3.9 but it should work up with older ones as well) as well as [Genanki](https://github.com/kerrickstaley/genanki).
+```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib```
 
 ## Installation
 Just click on the big green button on upper right corner or run:
 
-```git clone https://github.com/mxngls/Gmail-Cleaner.git```
+```git clone https://github.com/mxngls/Gmail-Cleaner.git ```
 
 ## Usage
-When downloading a list of words that you want to create some flash cards for choose XML as file type and save the downloaded file in the ```data/xml_files``` directory. Then switch to the Amgi directory and run: ```python3 main.py```
+First copy the created JSON-file into the source folder.
+Second start the script with running:
 
-You will be prompted to type in the name of the downloaded file that is to be parsed and from which flash cards are to be generated (As the script creates a new Anki deck which will be named after the file name I suggest choosing a meaningful file name).
+```python3 gmailCleaner.py```
 
-In the end for all of the words from the list of the [Korean Learners Dictionary's](https://krdict.korean.go.kr/mainAction) website a pair of flash cards will be created.
-See this example: https://user-images.githubusercontent.com/59572969/121784451-5117d400-cbb4-11eb-8eb9-ff743828a6a6.jpeg
+The script offers the following options:
+- Show the most common senders
+- Move messages from a specific sender to trash
+- Move messages from a specific sender to the spam folder
+- Move all messages from spam to the trash
+- Move messages matching a specific label to trash
+- Add a label to emails matching a specifed sender
+- Permanently delete all messages in trash
 
 ## Lisence
 This project is licensed under the terms of the MIT license.

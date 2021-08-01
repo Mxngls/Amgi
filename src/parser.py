@@ -82,12 +82,11 @@ def parser(file):
 
                     examples = '\n'.join(vocab[counter]['examples'])
                     vocab[counter]['examples'] = examples
-                    pprint(vocab[counter])
                     counter += 1
 
         # Check if the entry is a word or grammatical expression
         for feat in LexicalEntry:
-            if feat.get('val') == '단어':
+            if feat.get('val') == '단어' or feat.get('val') == '문법‧표현':
                 # Create an empty dictionary to store the information
                 # and add the necessary fields to it
                 for sense_id, sense in enumerate(LexicalEntry.findall('Sense')):
@@ -109,9 +108,19 @@ def parser(file):
                         'val'
                     )
                     if LexicalEntry.find('WordForm') is not None:
-                        vocab[counter]['pronounciation'] = (
+                        if (
                             LexicalEntry.find('WordForm').findall('feat')[1].get('val')
-                        )
+                            is None
+                        ):
+                            vocab[counter]['pronounciation'] = (
+                                LexicalEntry.find('Lemma').find('feat').get('val')
+                            )
+                        else:
+                            vocab[counter]['pronounciation'] = (
+                                LexicalEntry.find('WordForm')
+                                .findall('feat')[1]
+                                .get('val')
+                            )
                         vocab[counter][
                             'wav_name'
                         ] = f"[sound:{vocab[counter]['id']}.wav]"
@@ -120,8 +129,12 @@ def parser(file):
                             vocab[counter]['id'],
                         )
                     else:
-                        vocab[counter]['pronounciation'] = ''
+                        vocab[counter]['pronounciation'] = (
+                            LexicalEntry.find('Lemma').find('feat').get('val')
+                        )
                         vocab[counter]['wav_name'] = ''
+                    # vocab[counter]['pronounciation'] = ''
+                    # vocab[counter]['wav_name'] = ''
                     vocab[counter]['sense_id'] = sense_id
                     vocab[counter]['translation'] = (
                         sense.find('Equivalent').findall('feat')[1].get('val')
@@ -134,10 +147,9 @@ def parser(file):
                             vocab[counter]['krDefintion'] = sense.findall('feat')[
                                 i
                             ].get('val')
-                    vocab[counter]['subject_category'] = []
-                    vocab[counter]['semantic_category'] = []
+                    vocab[counter]['subject_category'] = ['없음']
+                    vocab[counter]['semantic_category'] = ['없음']
                     for i in range(0, len(LexicalEntry.findall('feat'))):
-                        print(LexicalEntry.findall('feat')[i].get('att'))
                         if (
                             LexicalEntry.findall('feat')[i].get('att')
                             == 'vocabularyLevel'
@@ -149,6 +161,7 @@ def parser(file):
                             LexicalEntry.findall('feat')[i].get('att')
                             == 'semanticCategory'
                         ):
+                            vocab[counter]['semantic_category'].pop()
                             vocab[counter]['semantic_category'].append(
                                 LexicalEntry.findall('feat')[i].get('val')
                             )
@@ -156,6 +169,7 @@ def parser(file):
                             LexicalEntry.findall('feat')[i].get('att')
                             == 'subjectCategiory'
                         ):
+                            vocab[counter]['subject_category'].pop()
                             vocab[counter]['subject_category'].append(
                                 LexicalEntry.findall('feat')[i].get('val')
                             )
@@ -212,8 +226,8 @@ def parser(file):
 
                     examples = '\n'.join(vocab[counter]['examples'])
                     vocab[counter]['examples'] = examples
-                    if sense_id > 5:
+                    if sense_id > 6:
                         break
-                    pprint(vocab[counter])
+                    # pprint(vocab[counter])
                     counter += 1
     return vocab

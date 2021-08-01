@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>                                  
+<!DOCTYPE LexicalResource SYSTEM "https://krdict.korean.go.kr/dtd/DTD_LMF_REV_16.dtd"> 
+<LexicalResource dtdVersion="16">                                       
+	<GlobalInformation>
+		<feat att="label" val="한국어기초사전 - 국립국어원 제공" />
+		<feat att="creationDate" val="2021/08/01 07:10:53" />
+		<feat att="languageCoding" val="ISO 639-3" />
+	</GlobalInformation>
+	<Lexicon>
+		<feat att="language" val="kor" />
+		<LexicalEntry att="id" val="68275">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="조사" />
+			<Lemma>
+				<feat att="writtenForm" val="처럼" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<feat att="annotation" val="명사 뒤에 붙여 쓴다." />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="22776" />
+					<feat att="lemma" val="같이" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="80341" />
+					<feat att="lemma" val="마냥" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="80343" />
+					<feat att="lemma" val="만치" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="80342" />
+					<feat att="lemma" val="만큼" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<feat att="definition" val="모양이나 정도가 서로 비슷하거나 같음을 나타내는 조사." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="연습 때처럼 하면 우리가 꼭 우승할 거야. 힘내자!" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="비행기의 발명으로 새처럼 하늘을 날고 싶었던 인간의 꿈은 이루어졌다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="십 년을 함께 산 부부이지만 난 아내를 보면 아직도 처음처럼 두근거린다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="방학이라서 너무 심심해." />
+					<feat att="example" val="아. 나도 너처럼 좀 한가했으면 좋겠다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="cheoreom" />
+					<feat att="definition" val="A postpositional particle used when something is similar or identical to something else in shape or level." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="68883">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="어미" />
+			<Lemma>
+				<feat att="writtenForm" val="-ㅂ시다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<feat att="annotation" val="받침이 없거나 ‘ㄹ’ 받침인 동사 뒤에 붙여 쓴다." />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="68880" />
+					<feat att="lemma" val="-읍시다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="(예사 높임으로) 어떤 동작을 함께 하자는 뜻을 나타내는 종결 어미." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="서둘러 움직입시다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="늦었으니 빨리 갑시다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="어려운 이웃을 도와줍시다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="우리 같이 시험공부 하는 거 어때요?" />
+					<feat att="example" val="네, 좋아요. 같이 공부합시다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-psida" />
+					<feat att="definition" val="(formal, moderately addressee-raising) A sentence-final ending used to express an intention of doing a certain action together." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="72584">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-지 말다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<feat att="annotation" val="명령문과 청유문에서, 동사 또는 '-으시-' 뒤에 붙여 쓴다." />
+				<feat att="definition" val="앞의 말이 나타내는 행동을 하지 못하게 함을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="교실에서는 떠들지 마라." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="엄마가 동생이랑 싸우지 말라고 했지?" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="아프지 말고 항상 건강하게 지내." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="약은 하루 세 번 꼭 챙겨 드시고 술은 마시지 마세요." />
+					<feat att="example" val="술만 먹지 않으면 되나요? 다른 주의 사항도 말씀해 주세요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-ji malda" />
+					<feat att="definition" val="An expression used to prohibit the act mentioned in the preceding statement." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="73971">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-ㄴ 적이 있다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="73970" />
+					<feat att="lemma" val="-는 적이 있다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="73972" />
+					<feat att="lemma" val="-은 적이 있다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="74026" />
+					<feat att="lemma" val="-ㄴ 적이 없다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="annotation" val="‘이다’, ‘아니다’, 받침이 없거나 ‘ㄹ’ 받침인 동사와 형용사 또는 ‘-으시-’ 뒤에 붙여 쓴다." />
+				<feat att="definition" val="앞의 말이 나타내는 동작이 일어나거나 그 상태가 나타난 때가 있음을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="너는 이 수업에 결석한 적이 있니?" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="저는 중국에 가 본 적이 있습니다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지금처럼 경제가 좋았던 적이 있었습니까?" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="대학 입학 후에 소개팅을 한 적이 있어?" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="너 도서관 갔다가 온다더니 진짜니?" />
+					<feat att="example" val="어머니, 제가 언제 거짓말한 적이 있어요?" />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-n jeogi itda" />
+					<feat att="definition" val="An expression used to indicate that the act or state mentioned in the preceding statement existed at some point in time." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="75265">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-려고 하다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<feat att="annotation" val="받침이 없거나 ‘ㄹ’ 받침인 동사 뒤에 붙여 쓴다." />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="75267" />
+					<feat att="lemma" val="-으려고 하다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="앞의 말이 나타내는 행동을 할 의도나 의향이 있음을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="내일부터는 일찍 일어나려고 한다. " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="공부를 하려고 하는데 친구가 집에 놀러 왔다. " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 친구와 화해하려고 했지만 친구는 아는 척도 하지 않았다. " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="나 지금 마트에 가려고 하는데 혹시 필요한 거 있니? " />
+					<feat att="example" val="그럼 오는 길에 휴지 좀 사다 줄래? " />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-ryeogo hada" />
+					<feat att="definition" val="An expression used to indicate that one has the intention or wish to do the act mentioned in the preceding statement." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="75267" />
+					<feat att="lemma" val="-으려고 하다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="앞의 말이 나타내는 일이 곧 일어날 것 같거나 시작될 것임을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="기차가 떠나려고 해! 빨리 와! " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="비가 오려고 하는지 구름이 잔뜩 끼었다. " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="날씨가 추워지려고 하는지 아침부터 쌀쌀하다. " />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="오늘 회의 언제지? " />
+					<feat att="example" val="지금 시작하려고 하니까 빨리 준비하고 와.  " />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-ryeogo hada" />
+					<feat att="definition" val="An expression used to indicate that the incident mentioned in the preceding statement is likely to happen or begin soon." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="77329">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-게 되다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<feat att="annotation" val="동사와 형용사 또는 ‘-으시-’ 뒤에 붙여 쓴다." />
+				<feat att="definition" val="앞의 말이 나타내는 상태나 상황이 됨을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이렇게 만나 뵙게 되어서 정말 영광입니다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 아이를 낳고 나서야 부모님의 사랑을 깨닫게 되었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="아버지가 직장을 옮기시면서 우리 가족은 이사를 가게 되었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이제 언제 어디에서나 휴대폰을 이용해 인터넷 이용이 가능하게 되었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="내가 급한 사정이 생겨서 못 가게 된 공연 티켓이 있는데 네가 갈래?" />
+					<feat att="example" val="정말? 그러면 나야 고맙지." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-ge doeda" />
+					<feat att="definition" val="An expression used to indicate that something will become the state or situation mentioned in the preceding statement." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="78337">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-기로 하다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<feat att="annotation" val="동사 또는 '-으시-' 뒤에 붙여 쓴다." />
+				<feat att="definition" val="앞의 말이 나타내는 행동을 할 것을 결심하거나 약속함을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오늘 회의는 다섯 시에 하기로 합시다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 이번 방학 때 수영을 배우기로 했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="출퇴근 시간에는 차가 밀리니까 조금 일찍 나가기로 해요." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="오늘 불고기를 먹으면 어때요?" />
+					<feat att="example" val="좋아요. 그럼 저녁에 먹기로 해요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-giro hada" />
+					<feat att="definition" val="An expression used to decide or promise the performance of the act mentioned in the preceding statement." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="81068">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="어미" />
+			<Lemma>
+				<feat att="writtenForm" val="-ㄹ래" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<feat att="annotation" val="받침이 없거나 ‘ㄹ’ 받침인 동사 뒤에 붙여 쓴다." />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="81065" />
+					<feat att="lemma" val="-을래" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="(두루낮춤으로) 앞으로 어떤 일을 하려고 하는 자신의 의사를 나타내거나 그 일에 대하여 듣는 사람의 의사를 물어봄을 나타내는 종결 어미." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지수야, 네 방 좀 치울래?" />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오늘은 피곤해서 일찍 잘래." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="내가 마음에 드는 것으로 고를래." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="승규야, 나 화장실 다녀올 테니까 잠깐만 여기서 기다릴래?" />
+					<feat att="example" val="알았어. 얼른 갔다 와." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="민준아, 늦었는데 그만 집에 가자." />
+					<feat att="example" val="너 먼저 들어가. 난 조금 더 있다가 갈래." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-llae" />
+					<feat att="definition" val="(informal addressee-lowering) A sentence-final ending used to indicate the speaker's intention to do something in the future, or to ask for the listener's thoughts about that." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="84769">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-면 좋겠다" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<feat att="annotation" val="‘이다’, 받침이 없거나 ‘ㄹ’ 받침인 동사와 형용사 또는 ‘-으시-’ 뒤에 붙여 쓴다." />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="84768" />
+					<feat att="lemma" val="-으면 좋겠다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="말하는 사람의 소망이나 바람을 나타내거나 현실과 다르게 되기를 바라는 것을 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 가족이 항상 건강하면 좋겠다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지수는 가끔 자신이 남자이면 좋겠다고 생각하곤 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="목말라. 시원한 주스라도 한 잔 마시면 좋겠는데." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="산마다 단풍이 예쁘게 들었더라. " />
+					<feat att="example" val="응. 이번 주말에 단풍놀이를 가면 좋겠다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-myeon joketda" />
+					<feat att="definition" val="An expression used to indicate the speaker's hope or wish, or the speaker's wish that the result would be different from reality." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="89041">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="문법‧표현" />
+			<feat att="partOfSpeech" val="품사 없음" />
+			<Lemma>
+				<feat att="writtenForm" val="-ㄴ 지" />
+			</Lemma>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="89040" />
+					<feat att="lemma" val="-은 지" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="annotation" val="받침이 없거나 ‘ㄹ’ 받침인 동사 또는 ‘-으시-’ 뒤에 붙여 쓴다." />
+				<feat att="definition" val="앞의 말이 나타내는 행동을 한 후 시간이 얼마나 지났는지를 나타내는 표현." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 회사에서 일한 지 세 달 됐습니다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 휴대폰은 산 지 하루 만에 고장이 났다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리는 만난 지 이 년 되는 날에 결혼하기로 했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="저는 한국에 온 지 일 년쯤 됐어요." />
+					<feat att="example" val="일 년밖에 안 됐는데도 한국어를 정말 잘하시네요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="-n ji" />
+					<feat att="definition" val="An expression used to indicate that a certain amount of time has passed since a certain act mentioned in the preceding statement occurred." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+	</Lexicon>
+</LexicalResource>

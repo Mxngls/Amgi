@@ -226,8 +226,7 @@ def parser(file):
 
                     examples = '\n'.join(vocab[counter]['examples'])
                     vocab[counter]['examples'] = examples
-                    if sense_id > 6:
-                        break
-                    # pprint(vocab[counter])
                     counter += 1
+                    if sense_id > 3:
+                        break
     return vocab

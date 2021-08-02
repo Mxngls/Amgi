@@ -1,6 +1,7 @@
 import genanki
 from src.models import *
 import os
+from pprint import pprint
 
 
 def create_deck(vocab, file_name, is_grammar):
@@ -223,7 +224,7 @@ def create_deck(vocab, file_name, is_grammar):
             due=i,
         )
         anki_deck.add_note(anki_note)
-        # print(word['wav_name'])
+
     new_deck = genanki.Package(anki_deck)
     new_deck.media_files = [
         '/users/max/Library/Application Support/Anki2/Max/collection.media'

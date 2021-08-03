@@ -216,14 +216,14 @@ def parser(file):
                                     f' {sense_example.findall("feat")[1].get("val")}'
                                 )
                                 part_1 = part_1.replace(
-                                    word, f'<span style="color: #9400D3">{word}</span>'
+                                    word, f'<span style="color: #28da6d">{word}</span>'
                                 )
                                 part_2 = (
                                     '    너:'
                                     f' {sense_example.findall("feat")[2].get("val")}</li>'
                                 )
                                 part_2 = part_2.replace(
-                                    word, f'<span style="color: #9400D3">{word}</span>'
+                                    word, f'<span style="color: #28da6d">{word}</span>'
                                 )
                                 example = part_1 + '</br>' + part_2
                                 vocab[counter]['examples'].append(example)
@@ -234,7 +234,7 @@ def parser(file):
                                     example = f'<li>{sense_example.findall("feat")[1].get("val")}</li>'
                                     example = example.replace(
                                         word,
-                                        f'<span style="color: #9400D3">{word}</span>',
+                                        f'<span style="color: #28da6d">{word}</span>',
                                     )
                                     vocab[counter]['examples'].append(example)
                                     break

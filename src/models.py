@@ -106,22 +106,19 @@ vocab_model = genanki.Model(
         {{FrontSide}}
         </br>
         </br>
-        {{wav_src}}
-        </br>
-        <p>【{{pronounciation}}】</p>
+        <div id="audio" style="display:none">{{wav_src}}</div>
+        <div class="pronounciation" onclick="playAudio()">【{{pronounciation}}】</div>
         <hr id="answer">
-        <div
-            <p class="translation">{{translation}}</p>
-            <p class="definition">{{definition}}</p>
-            <a id="Link" onclick="expander()">+ Examples</a>
-            </br>
-            <div id="Examples">
-                <ul>
+        <p class="translation">{{translation}}</p>
+        <p class="definition">{{definition}}</p>
+        <a id="Link" onclick="expander()">+ Examples</a>
+        </br>
+        <div id="Examples">
+            <ul>
                 {{examples}}
-                </ul>
-            </div>
-            <p class="tags">{{tags}}</p>
+            </ul>
         </div>
+        <p class="tags">{{tags}}</p>
         <script>
         function expander() {
             let e = document.getElementById("Examples");
@@ -135,8 +132,9 @@ vocab_model = genanki.Model(
             }
         }
         function playAudio() {
-            audio = document.getElementById("Audio")
-            audio.play()
+            audioDiv = document.getElementById("audio")
+            audio = audioDiv.getElementsByTagName("*");
+            audio[0].click();
         }
         </script>
     ''',
@@ -146,23 +144,19 @@ vocab_model = genanki.Model(
             "qfmt": '<p class="translation" href="{{link}}">{{translation}}</p>',
             "afmt": '''
         {{FrontSide}}
-        </br>
-        {{wav_src}}
-        </br>
-        <p>【{{pronounciation}}】</p>
+        <div id="audio" style="display:none">{{wav_src}}</div>
+        <p class="pronounciation" onclick="playAudio()">【{{pronounciation}}】</p>
         <hr id="answer">
-        <div
-            <p class="translation">{{hangul}}</p>
-            <p class="definition">{{definition}}</p>
-            <a id="Link" onclick="expander()">+ Examples</a>
-            </br>
-            <div id="Examples">
-                <ul>
+        <div class="hangul">{{hangul}}</div>
+        <p class="definition">{{definition}}</p>
+        <a id="Link" onclick="expander()">+ Examples</a>
+        </br>
+        <div id="Examples">
+            <ul>
                 {{examples}}
-                </ul>
-            </div>
-            <p class="tags">{{tags}}</p>
+            </ul>
         </div>
+        <p class="tags">{{tags}}</p>
         <script>
         function expander() {
             let e = document.getElementById("Examples");
@@ -176,8 +170,9 @@ vocab_model = genanki.Model(
             }
         }
         function playAudio() {
-            audio = document.getElementById("Audio")
-            audio.play()
+            audioDiv = document.getElementById("audio")
+            audio = audioDiv.getElementsByTagName("*");
+            audio[0].click();
         }
         </script>
     ''',

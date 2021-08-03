@@ -2,24 +2,45 @@ import genanki
 
 style = open('src/card_style.css', 'r').read()
 
-vocab_model = genanki.Model(
+grammar_model = genanki.Model(
     1449579167,
     "Korean Learner's Dictionary-Grammar",
+    # 0 ('hangul'),
+    # 1 ('id'),
+    # 2 '(link)'
+    # 3 ('homonym_number'),
+    # 4 ('pronunciation'),
+    # 5 ('wav_name'),
+    # 6 ('sense_id'),
+    # 7 ('translation'),
+    # 8 ('definition'),
+    # 9 ('krDefintion'),
+    # 10 ('vocabulary_level'),
+    # 11 ('semantic_category')
+    # 12 ('subject_category'),
+    # 13 ('wordForm'),
+    # 14 ('examples')
     fields=[
         {"name": "hangul"},
+        {"name": "id"},
+        {"name": "link"},
+        {"name": "homonym_number"},
+        {"name": "sense_id"},
         {"name": "pronounciation"},
         {"name": "wav_src"},
         {"name": "translation"},
         {"name": "definition"},
+        {"name": "krDefinition"},
         {"name": "examples"},
         {"name": "tags"},
     ],
     templates=[
         {
             "name": "hangul > translation",
-            "qfmt": '<p class="hangul">{{hangul}}</p>',
+            "qfmt": '<a class="hangul" href="{{link}}">{{hangul}}</a>',
             "afmt": '''
         {{FrontSide}}
+        </br>
         </br>
         {{wav_src}}
         </br>
@@ -60,24 +81,30 @@ vocab_model = genanki.Model(
     css=style,
 )
 
-grammar_model = genanki.Model(
+vocab_model = genanki.Model(
     1448492665,
     "Korean Learner's Dictionary",
     fields=[
         {"name": "hangul"},
+        {"name": "id"},
+        {"name": "link"},
+        {"name": "homonym_number"},
+        {"name": "sense_id"},
         {"name": "pronounciation"},
         {"name": "wav_src"},
         {"name": "translation"},
         {"name": "definition"},
+        {"name": "krDefinition"},
         {"name": "examples"},
         {"name": "tags"},
     ],
     templates=[
         {
             "name": "hangul > translation",
-            "qfmt": '<p class="hangul">{{hangul}}</p>',
+            "qfmt": '<a class="hangul" href="{{link}}">{{hangul}}</a>',
             "afmt": '''
         {{FrontSide}}
+        </br>
         </br>
         {{wav_src}}
         </br>
@@ -116,7 +143,7 @@ grammar_model = genanki.Model(
         },
         {
             "name": "translation > hangul",
-            "qfmt": '<p class="translation">{{translation}}</p>',
+            "qfmt": '<p class="translation" href="{{link}}">{{translation}}</p>',
             "afmt": '''
         {{FrontSide}}
         </br>

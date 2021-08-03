@@ -26,13 +26,18 @@ def parser(file):
             if feat.get('val') == '관용구':
                 # Create an empty dictionary to store the information
                 # and add the necessary fields to it
-                for sense in LexicalEntry.findall('Sense'):
+                for sense_id, sense in enumerate(LexicalEntry.findall('Sense')):
                     vocab.append({})
+                    vocab[counter][
+                        'link'
+                    ] = f"""https://krdict.korean.go.kr/eng/dicSearch/SearchView?wordMatchFlag=N&mainSearchWord=%EB%B9%84%EB%B9%84%EB%8B%A4&currentPage=1&sort=W&searchType=W&proverbType=&exaType=&ParaWordNo={LexicalEntry.get('val')}&nation=eng&nationCode=6&viewType=A&blockCount=10&viewTypes=on"""
                     vocab[counter]['hangul'] = (
                         LexicalEntry.find('Lemma').find('feat').get('val')
                     )
                     vocab[counter]['id'] = LexicalEntry.get('val')
                     vocab[counter]['pronounciation'] = vocab[counter]['hangul']
+                    vocab[counter]['homonym_number'] = ''
+                    vocab[counter]['sense_id'] = str(sense_id)
                     vocab[counter]['wav_name'] = ''
                     vocab[counter]['translation'] = (
                         sense.find('Equivalent').findall('feat')[1].get('val')
@@ -82,6 +87,8 @@ def parser(file):
 
                     examples = '\n'.join(vocab[counter]['examples'])
                     vocab[counter]['examples'] = examples
+                    if not vocab[counter]:
+                        vocab.pop(vocab[counter])
                     counter += 1
 
         # Check if the entry is a word or grammatical expression
@@ -91,16 +98,24 @@ def parser(file):
                 # and add the necessary fields to it
                 for sense_id, sense in enumerate(LexicalEntry.findall('Sense')):
                     vocab.append({})
+                    vocab[counter][
+                        'link'
+                    ] = f"""https://krdict.korean.go.kr/eng/dicSearch/SearchView?wordMatchFlag=N&mainSearchWord=%EB%B9%84%EB%B9%84%EB%8B%A4&currentPage=1&sort=W&searchType=W&proverbType=&exaType=&ParaWordNo={LexicalEntry.get('val')}&nation=eng&nationCode=6&viewType=A&blockCount=10&viewTypes=on"""
+                    vocab.append({})
 
                     if int(LexicalEntry.find('feat').get('val')) > 0:
                         vocab[counter]['hangul'] = (
-                            LexicalEntry.find('Lemma').find('feat').get('val')
-                            + f"""<sub style='font-size: 60%; line-height:45%'>{LexicalEntry.findall('feat')[0].get('val')}{sense_id_alphabet[sense_id+1]}</sub>"""
+                            "<span>"
+                            + LexicalEntry.find('Lemma').find('feat').get('val')
+                            + f"""<sub style='font-size: 60%; line-height:45%'>{LexicalEntry.findall('feat')[0].get('val')}{sense_id_alphabet[sense_id]}</sub>"""
+                            + "</span>"
                         )
                     else:
                         vocab[counter]['hangul'] = (
-                            LexicalEntry.find('Lemma').find('feat').get('val')
-                            + f"""<sub style='font-size: 60%; line-height: 45%'>{sense_id_alphabet[sense_id+1]}</sub>"""
+                            "<span>"
+                            + LexicalEntry.find('Lemma').find('feat').get('val')
+                            + f"""<sub style='font-size: 60%; line-height: 45%'>{sense_id_alphabet[sense_id]}</sub>"""
+                            + "</span>"
                         )
 
                     vocab[counter]['id'] = LexicalEntry.get('val')
@@ -135,7 +150,7 @@ def parser(file):
                         vocab[counter]['wav_name'] = ''
                     # vocab[counter]['pronounciation'] = ''
                     # vocab[counter]['wav_name'] = ''
-                    vocab[counter]['sense_id'] = sense_id
+                    vocab[counter]['sense_id'] = str(sense_id)
                     vocab[counter]['translation'] = (
                         sense.find('Equivalent').findall('feat')[1].get('val')
                     )
@@ -227,6 +242,11 @@ def parser(file):
                     examples = '\n'.join(vocab[counter]['examples'])
                     vocab[counter]['examples'] = examples
                     counter += 1
-                    if sense_id > 3:
+                    if sense_id > 2:
                         break
+
+    vocab = [word for word in vocab if word]
+
+    for i, word in enumerate(vocab):
+        pprint(vocab[i])
     return vocab

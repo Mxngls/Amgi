@@ -19,6 +19,8 @@ def main():
                 'Do you want to add some grammatical expressions? (y/n)'
                 '\n(Press "q" to quit.)\n>>> '
             )
+            if is_grammar == 'q':
+                return False
             if is_grammar == 'y':
                 is_grammar = True
                 break

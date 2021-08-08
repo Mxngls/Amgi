@@ -141,13 +141,14 @@ vocab_model = genanki.Model(
         },
         {
             "name": "translation > hangul",
-            "qfmt": '<p class="translation" href="{{link}}">{{translation}}</p>',
+            "qfmt": '<p class="translation">{{translation}}</p>',
             "afmt": '''
         {{FrontSide}}
+        <p class="definition">{{definition}}</p>
+        <hr id="answer">
+        <a class="hangul" href="{{link}}">{{hangul}}</a>
         <div id="audio" style="display:none">{{wav_src}}</div>
         <p class="pronounciation" onclick="playAudio()">【{{pronounciation}}】</p>
-        <hr id="answer">
-        <div class="hangul">{{hangul}}</div>
         <p class="definition">{{definition}}</p>
         <a id="Link" onclick="expander()">+ Examples</a>
         </br>

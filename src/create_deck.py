@@ -80,7 +80,7 @@ def create_deck(vocab, file_name, is_grammar):
                 + ' | '
                 + word['vocabulary_level']
                 + ' | '
-                + word['lexical_unit'],  # tags
+                + word['lexical_unit'], 
             ],
             tags=tags,
             due=i,

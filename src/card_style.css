@@ -1,52 +1,56 @@
 * {
- font-family: Arial;
+  font-family: Arial;
 }
 .card {
- font-size: 26px;
- text-align: center;
- color: #252425;
- background-color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+  color: #252425;
+  background-color: #ffffff;
 }
 .hangul {
   color: #28da6d;
-  font-weight: bolder;  
+  font-weight: bolder;
   text-align: center;
   font-size: 34px;
   text-decoration: none;
-}
-.translation {
-  color: #252425
 }
 .pronounciation {
   color: #bec1c0;
   font-size: 26px;
 }
+.translation {
+  color: #252425;
+  font-size: 20px;
+}
 .definition {
   color: #bec1c0;
-  text-align: center;
   font-size: 20px;
+  text-align: justify;
 }
 .tags {
   color: #252425;
   text-align: center;
   font-size: 14px;
 }
-#Examples {
-  colour: #16a8fb;
-  font-size: 20px;
+.examples {
+  font-size: 26px;
   display: none;
 }
 ul {
-   margin-left: 0px;
-   text-align: left;
-   list-style: circle;
+  margin-left: 0px;
+  text-align: left;
 }
-ul li:before {
-   font-size: 70%;
-   padding-right: 15px;
-   vertical-align: middle;
+ul li {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  font-size: 70%;
+  padding-right: 15px;
 }
-#Link {
-    text-decoration: underline;
-    color: #72caff;
+.visible {
+  display: block;
 }
+.hidden {
+  display: none;
+}
+

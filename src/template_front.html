@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<a class="hangul" href="{{link}}">{{hangul}}</a>
+</p>
+<div id="audio" style="display:none">{{wav_src}}</div>
+<div class="pronounciation" onclick="playAudio()">【{{pronounciation}}】</div>
+<hr id="answer">
+<ul>
+    <li id="el1" class="visible">
+        <a id="translation1" class="translation" onclick="expander(1)">{{translation1}}</a>
+        <div id="definition1" class="definition">{{definition1}}</div>
+        </br>
+        <ul id="examples1" class="examples" style="display: none;">
+            {{examples1}}
+            </br>
+        </ul>
+    </li>
+    <li id="el2" class="visible">
+        <a id="translation2" class="translation" onclick="expander(2)">{{translation2}}</a>
+        <div id="definition2" class="definition">{{definition2}}</div>
+        </br>
+        <ul id="examples2" class="examples" style="display: none;">
+            {{examples2}}
+            </br>
+        </ul>
+    </li>
+    <li id="el3" class="visible">
+        <a id="translation3" class="translation" onclick="expander(3)">{{translation3}}</a>
+        <div id="definition3" class="definition">{{definition3}}</div>
+        </br>
+        <ul id="examples3" class="examples" style="display: none;">
+            {{examples3}}
+            </br>
+        </ul>
+    </li>
+    <li id="el4" class="visible">
+        <a id="translation4" class="translation" onclick="expander(4)">{{translation4}}</a>
+        <div id="definition4" class="definition">{{definition4}}</div>
+        </br>
+        <ul id="examples4" class="examples" style="display: none;">
+            {{examples4}}
+            </br>
+        </ul>
+    </li>
+    <li id="el5" class="visible">
+        <a id="translation5" class="translation" onclick="expander(5)">{{translation5}}</a>
+        <div id="definition5" class="definition">{{definition6}}</div>
+        </br>
+        <ul id="examples5" class="examples" style="display: none;">
+            {{examples3}}
+            </br>
+        </ul>
+    </li>
+    <li id="el6" class="visible">
+        <a id="translation6" class="translation" onclick="expander(6)">{{translation6}}</a>
+        <div id="definition6" class="definition">{{definition6}}</div>
+        </br>
+        <ul id="examples6" class="examples" style="display: none;">
+            {{examples4}}
+            </br>
+        </ul>
+    </li>
+</ul>
+<p class="tags">{{tags}}</p>
+<script>
+    function expander(i) {
+        var df = document.getElementById(`definition${i}`);
+        var ex = document.getElementById(`examples${i}`);
+        if (ex.style.display === "block") {
+            ex.style.display = "none"
+        } else {
+            ex.style.display = "block"
+        }
+    };
+    function playAudio() {
+        audioDiv = document.getElementById("audio");
+        audio = audioDiv.getElementsByTagName("*");
+        audio[0].click();
+    };
+    for (var i = 1; i < 6; i++) {
+        var el = document.getElementById(`el${i}`);
+        var tr = document.getElementById(`definition${i}`);
+        if (el !== null && tr !== null) {
+            if (tr.innerHTML.trim().length < 2) {
+                el.classList.replace("visible", "hidden")
+            };
+        };
+    };
+</script>
+
+</html>

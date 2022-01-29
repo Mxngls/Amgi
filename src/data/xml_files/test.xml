@@ -1,0 +1,3431 @@
+<?xml version="1.0" encoding="UTF-8"?>                                  
+<!DOCTYPE LexicalResource SYSTEM "https://krdict.korean.go.kr/dtd/DTD_LMF_REV_16.dtd"> 
+<LexicalResource dtdVersion="16">                                       
+	<GlobalInformation>
+		<feat att="label" val="한국어기초사전 - 국립국어원 제공" />
+		<feat att="creationDate" val="2021/09/05 06:48:40" />
+		<feat att="languageCoding" val="ISO 639-3" />
+	</GlobalInformation>
+	<Lexicon>
+		<feat att="language" val="kor" />
+		<LexicalEntry att="id" val="14023">
+			<feat att="homonym_number" val="2" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="연장" />
+			</Lemma>
+			<feat att="origin" val="延長" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="연장" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/ieung_2005/yeonjang.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="67748" />
+				<feat att="writtenForm" val="연장되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="67751" />
+				<feat att="writtenForm" val="연장하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="반대말" />
+					<feat att="id" val="42010" />
+					<feat att="lemma" val="단축" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="길이나 시간, 거리 등을 본래보다 길게 늘림." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="기간 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="대출 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="연장 공연." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="연장 구간." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="연장 근무." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="연장이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="연장을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="엄마는 여권 연장을 위해 구청에 갔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="평균 수명 연장으로 요즘은 노인들을 위한 산업이 새롭게 떠오르고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="너 그 공연 봤니?" />
+					<feat att="example" val="아니. 연장 공연 한다던데, 같이 보러 갈래?" />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="extension; prolongation" />
+					<feat att="definition" val="The act of elongating length, time, distance, etc." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="어떤 일의 계속. 또는 하나로 이어지는 것." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고통의 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="과거의 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="기쁨의 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="불안의 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="수업의 연장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="체험 학습도 수업의 연장이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="현재는 과거의 연장이기 때문에 역사를 알면 현재를 잘 이해할 수 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="요즘 사건 사고가 너무 많아요." />
+					<feat att="example" val="그러게요. 하루하루가 불안의 연장이라니까요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="extension; continuation" />
+					<feat att="definition" val="The continuance of something, or the extension of something to something else." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="14097">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="실시" />
+			</Lemma>
+			<feat att="origin" val="實施" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="실씨" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/siot_2006/silssi.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="14100" />
+				<feat att="writtenForm" val="실시되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="14101" />
+				<feat att="writtenForm" val="실시하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="66224" />
+					<feat att="lemma" val="실행" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="어떤 일이나 법, 제도 등을 실제로 행함." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정책 실시." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="조사 실시." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="실시 계획." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="실시 기간." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="실시 방법." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="실시가 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="실시를 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="다음 달부터 공공장소에서 흡연을 금지하는 법안이 실시가 된다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="의무 교육 실시가 고등학교까지 확대되면 고등학교도 무료로 다닐 수 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이번 시험의 실시 목적은 무엇입니까?" />
+					<feat att="example" val="학생들이 수업 시간에 배운 내용을 잘 이해했는지 알아보기 위함입니다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="execution; operation; enforcement" />
+					<feat att="definition" val="An act of actually executing or enforcing a certain plan, law, system, etc." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="14687">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="형용사" />
+			<Lemma>
+				<feat att="writtenForm" val="아쉽다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="아쉽따" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/21000/14687_aswiptta.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="아쉬운" />
+				<feat att="pronunciation" val="아쉬운" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="아쉬워" />
+				<feat att="pronunciation" val="아쉬워" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/29000/14687_aswiwo.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="아쉬우니" />
+				<feat att="pronunciation" val="아쉬우니" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="아쉽습니다" />
+				<feat att="pronunciation" val="아쉽씀니다" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="semanticCategory" val="인간 > 감정" />
+			<feat att="subjectCategiory" val="감정, 기분 표현하기" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 2가 아쉽다" />
+				<feat att="definition" val="필요한 것이 없거나 모자라서 만족스럽지 못하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="돈이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="먹을 것이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사람이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="시간이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="옷이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="민준이는 부잣집에서 태어나 아쉬운 것 없이 자랐다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="시험 시간이 끝나 갈수록 일분일초가 아쉬웠다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="요즘 농사일이 한창 바쁘시죠?" />
+					<feat att="example" val="네, 정말 일손 하나하나가 너무 아쉬워요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="lacking" />
+					<feat att="definition" val="Unsatisfied because what one needs is missing or deficient." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="syntacticPattern" val="1이 2가 아쉽다" />
+				<feat att="syntacticPattern" val="1이 2-기가 아쉽다" />
+				<feat att="definition" val="미련이 남아 안타깝고 서운하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="돌아가기가 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="버리기가 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="작별이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="탈락이 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="헤어지기가 아쉽다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지수는 입학시험에서 일 점 차이로 아쉽게 떨어졌다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 이대로 집에 돌아가는 것이 무척 아쉬웠다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이렇게 헤어지려니 너무 아쉽네요." />
+					<feat att="example" val="그럼 차라도 한잔할까요?" />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="being a pity" />
+					<feat att="definition" val="Sorry and sad due to a lingering attachment." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="14687">
+			<Lemma>
+				<feat att="writtenForm" val="아쉬운 대로" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="부족하거나 만족스럽지 않지만 그냥 그대로." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리는 너무 배가 고파서 아쉬운 대로 우유를 마셨다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="마음에 드는 옷이 하나도 없어." />
+					<feat att="example" val="아쉬운 대로 이거라도 일단 입고 가." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="leaving something lacking as it is" />
+					<feat att="definition" val="To take something as it is although it is not enough or satisfactory." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="14687">
+			<Lemma>
+				<feat att="writtenForm" val="아쉬운 소리" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="남에게 무엇을 빌리려고 구차하게 사정하는 말." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="친구는 내게 돈 좀 빌려줄 수 있냐며 아쉬운 소리를 했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 집주인에게 아쉬운 소리를 하는 것이 자존심이 상했다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="a wistful sound" />
+					<feat att="definition" val="To make a pathetic request in order to borrow something from someone." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="14748">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="도입" />
+			</Lemma>
+			<feat att="origin" val="導入" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="도ː입" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/37000/14748_do-ip.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="도입이" />
+				<feat att="pronunciation" val="도ː이비" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/37000/14748_do-ibi.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="도입도" />
+				<feat att="pronunciation" val="도ː입또" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/37000/14748_do-iptto.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="도입만" />
+				<feat att="pronunciation" val="도ː임만" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/37000/14748_do-imman.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="48117" />
+				<feat att="writtenForm" val="도입되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="48122" />
+				<feat att="writtenForm" val="도입하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="지식, 기술, 물자 등을 들여옴." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개념 도입." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="기술 도입." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="신기술 도입." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입을 주장하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 건설 회사는 빌딩을 건설하는 데 쓰이는 첨단 장비 도입을 점차 늘려가고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="국내 기업의 대다수는 명예퇴직 제도를 도입했거나 도입을 검토하고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="우리나라 회사가 세계 최고의 선박 제조 기술을 보유하고 있다며?" />
+					<feat att="example" val="응. 그래서 세계 여러 회사들이 우리나라 회사의 기술 도입을 시도하고 있대." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="introduction" />
+					<feat att="definition" val="The bringing in of knowledge, technology, goods, etc." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="단원 학습이나 소설 등이 본격적으로 시작하기 전의 첫 단계." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단원의 도입." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입 단계." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입 부분." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="도입을 공부하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="소설의 도입 부분에서는 이야기의 실마리가 제시된다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="대부분의 교과서에서는 단원의 도입 부분에서 그 단원의 핵심 내용들을 짚어 준다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이 단원에서는 한국의 음식 문화에 관해서 배울 겁니다." />
+					<feat att="example" val="그래서 단원의 도입 부분에 삼계탕, 불고기 등의 그림이 그려져 있군요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="introduction" />
+					<feat att="definition" val="The first part of a novel or unit of study, after which the main parts begin. " />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15654">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="사건" />
+			</Lemma>
+			<feat att="origin" val="事件" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="사ː껀" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/07000/15654_sa-kkeon.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="사건, 사고, 재해 기술하기" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="관심이나 주목을 끌 만한 일." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="강도 사건." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="살인 사건." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="끔찍한 사건." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건 현장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건이 나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건이 발생하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건이 터지다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건을 일으키다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사건을 해결하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="경찰은 사건을 해결하기 위해 최선을 다하고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그날은 우리의 인생을 뒤바꾸어 놓은 역사적인 사건이 있었던 날이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="동네에서 흉악한 사건이 터지자 사람들은 이사 갈 집을 알아보기 시작했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="사건 발생 시각에 당신들은 무엇을 하고 있었습니까?" />
+					<feat att="example" val="우리는 사건이 있기 전날 밤에 부산으로 가족 여행을 떠났습니다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="incident; event; affair; accident; case" />
+					<feat att="definition" val="A matter that is worthy of interest or attention. " />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15716">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="비상" />
+			</Lemma>
+			<feat att="origin" val="非常" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="비ː상" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/07000/15716_bi-sang.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="60647" />
+				<feat att="writtenForm" val="비상하다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="writtenForm" val="비상히" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="미리 생각하지 못 했던 위급한 일. 또는 이러한 일을 처리하기 위한 긴급한 명령." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="비상 수단." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="비상 조치." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="비상이 걸리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="갑자기 주문이 폭주하여 공장은 비상이 걸렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="비상의 사태를 대비해 승객들의 의자 밑에는 구명조끼가 준비되어 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="여보, 냉장고가 텅 비었는데 이번 달 생활비도 바닥났어요." />
+					<feat att="example" val="내가 언젠가 이런 날이 올 줄 알고 비상을 대비한 식량을 준비해 뒀지요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="emergency; contingency; being in crisis" />
+					<feat att="definition" val="An urgent occasion that one has not thought of, or an urgent order issued to cope with such an occasion. " />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15769">
+			<feat att="homonym_number" val="2" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="수집" />
+			</Lemma>
+			<feat att="origin" val="蒐集" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="수집" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/siot_2005/sujip.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="수집이" />
+				<feat att="pronunciation" val="수지비" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/06000/65487_sujibi.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="수집도" />
+				<feat att="pronunciation" val="수집또" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/06000/65487_sujiptto.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="수집만" />
+				<feat att="pronunciation" val="수짐만" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/06000/65487_sujimman.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="65491" />
+				<feat att="writtenForm" val="수집되다02" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="15773" />
+				<feat att="writtenForm" val="수집하다02" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="semanticCategory" val="삶 > 여가 활동" />
+			<feat att="subjectCategiory" val="취미" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="취미나 연구를 위하여 물건이나 자료 등을 찾아서 모음." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="동전 수집." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="우표 수집." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자료 수집." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정보 수집." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="수집이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="수집을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 우표 수집이 취미이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지수는 여행을 가기 위해서 여행지에 대한 정보 수집을 하였다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="지수야, 발표는 잘 준비되고 있니?" />
+					<feat att="example" val="지금 발표 주제와 관련된 자료 수집을 하고 있어요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="collection" />
+					<feat att="definition" val="The act of finding objects, materials, etc., and collecting them as a hobby or research." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="발길" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="발낄" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/bieup_2005/balkkil.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="앞으로 움직여 걸어 나가는 발." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 가다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 가볍다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 휘청거리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길을 돌리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길을 멈추다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="발길을 옮길 때마다 뽀드득 하고 눈이 밟히는 소리가 났다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오늘은 수업이 없다는 연락을 받고 나는 교문 앞에서 발길을 돌렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="일을 다 끝마치고 퇴근하니 집으로 향하는 발길이 한결 가볍네." />
+					<feat att="example" val="오늘 밤은 일 생각하지 말고 푹 쉬세요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="step" />
+					<feat att="definition" val="A step that one takes forward." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="사람들의 오고 감." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 뜸하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 멈추다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 이어지다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 잦다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길을 끊다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="할머니는 가게에 손님 발길이 끊어진 게 옛날인데도 매일같이 문을 열었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이곳은 지난 주말부터 봄꽃이 피기 시작하여 등산객들의 발길이 연일 이어지고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이곳에 음식점을 차린 이유가 뭐예요?" />
+					<feat att="example" val="이 지역이 주택가여서 사람들의 발길이 잦거든. " />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="visit" />
+					<feat att="definition" val="The act of people coming and going." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="3">
+				<feat att="definition" val="앞으로 세차게 뻗는 발." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길이 날아오다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길로 걷어차다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길로 때리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길로 차다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="발길에 차이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="지수가 방심한 순간 뒤쪽에서 발길이 날아왔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 약한 아이들에게 사정없이 발길을 내지르며 괴롭혔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="코끼리는 정말 다리가 기둥처럼 튼실하다." />
+					<feat att="example" val="응, 코끼리 발길에 차이면 뼈도 못 추리고 그대로 쓰러질 것 같아." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="kick" />
+					<feat att="definition" val="A foot that is stretched forward forcefully." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<Lemma>
+				<feat att="writtenForm" val="발길에 채다[차이다]" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 발길에 채다[차이다]" />
+				<feat att="definition" val="천대받고 짓밟히다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그는 어려서 부모를 잃고 발길에 차여 다니다가 이 마을에 이르렀다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리는 차에서 내리자마자 군인들의 발길에 채면서 다시 조사를 받았다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="be kicked by a step" />
+					<feat att="definition" val="To be treated with contempt and trampled." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="syntacticPattern" val="1이 발길에 채다[차이다]" />
+				<feat att="definition" val="아주 흔하다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 학교 앞에는 발길에 차이는 것이 술집이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="당시 금광 주변에는 금이 발길에 차이도록 널려 있었다고 한다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="be kicked by a step" />
+					<feat att="definition" val="To be very common." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<Lemma>
+				<feat att="writtenForm" val="발길을 끌어당기다" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 2의 발길을 끌어당기다" />
+				<feat att="definition" val="자기 쪽으로 오게 하다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="맑은 계곡이 있는 아름다운 이 산은 사람들의 발길을 끌어당기기에 충분하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이곳은 세계에서 바다와 가장 가까운 역이라는 점에서 여행자들의 발길을 끌어당긴다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="pull one's step" />
+					<feat att="definition" val="To make someone come toward oneself." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<Lemma>
+				<feat att="writtenForm" val="발길이 내키지 않다" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 발길이 내키지 않다" />
+				<feat att="definition" val="가고 싶은 생각이 좀처럼 나지 않다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="발길이 내키지는 않았지만 아이들이 하도 졸라서 주말에 놀이동산에 갔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="무슨 이유에서인지 몰라도 오늘따라 왠지 선뜻 집으로 가는 발길이 내키지 않았다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="One's steps are reluctant" />
+					<feat att="definition" val="To be reluctant to go somewhere." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<Lemma>
+				<feat att="writtenForm" val="발길이 떨어지지 않다" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 발길이 떨어지지 않다" />
+				<feat att="definition" val="마음이 놓이지 않아 떠나지 못하다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="편찮으신 어머니의 얼굴을 보니 발길이 떨어지지 않았다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="여행 일정을 전부 마치고 나서도 쉽사리 발길이 떨어지지 않았지만 아쉬움을 뒤로 하고 돌아왔다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="One's step would not be taken off" />
+					<feat att="definition" val="To be unable to leave as one feels uneasy." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="15864">
+			<Lemma>
+				<feat att="writtenForm" val="발길이 무겁다" />
+			</Lemma>
+			<feat att="lexicalUnit" val="관용구" />
+			<Sense att="id" val="1">
+				<feat att="syntacticAnnotation" val="1이 발길이 무겁다" />
+				<feat att="definition" val="마음이 내키지 않거나 선뜻 어떤 일을 하고 싶지 않다." />
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="실력이 잘 늘지를 않으니 연습실에 가는 발길이 무거웠다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="혼자 사시는 할머니를 뵙고 나니 집에 가는 발길이 무겁네." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="One's step feels heavy" />
+					<feat att="definition" val="To feel reluctant or unwilling to do something." />
+				</Equivalent>
+			</Sense>
+				</LexicalEntry>
+		<LexicalEntry att="id" val="15894">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="방안" />
+			</Lemma>
+			<feat att="origin" val="方案" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="방안" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/bieup_2005/bangan.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="58460" />
+					<feat att="lemma" val="방책" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="일을 처리할 방법이나 계획." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개선 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="대응 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="대처 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="해결 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="해소 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="현실적 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="구체적인 방안." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방안을 강구하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방안을 마련하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방안을 제시하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="수입 개방으로 농민의 피해가 클 것으로 예상되어 이를 완화할 방안이 필요하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="취재진의 질문에 대해 정부는 여러 방안을 놓고 신중히 논의 중이라며 얼버무렸다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="way; measure" />
+					<feat att="definition" val="A method or plan to handle a matter." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="15943">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="게시판" />
+			</Lemma>
+			<feat att="origin" val="揭示板" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="게ː시판" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/35000/15943_ge-sipan.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="컴퓨터와 인터넷" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="66388" />
+					<feat att="lemma" val="안내판" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="66768" />
+					<feat att="lemma" val="알림판" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<Multimedia>
+					<feat att="type" val="사진" />
+					<feat att="label" val="게시판" />
+					<feat att="url" val="http://dicmedia.korean.go.kr:8899/multimedia/multimedia_files/convert/20200130/652323/PIC000355806_700X466.jpg" />
+				</Multimedia>
+				<feat att="definition" val="알릴 내용을 여러 사람이 볼 수 있도록 붙여두는 판." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="아파트 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="학급 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="회사 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="게시판에 공고하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="게시판에 붙다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="게시판에 붙이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="직원들이 회사 게시판에 붙은 승진 결과를 확인하고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="반장이 학급 게시판에 반 아이들이 소풍 가서 찍은 사진을 붙였다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이 아파트 게시판에 광고물을 붙여도 될까요?" />
+					<feat att="example" val="아파트 관리인에게 신청하신 뒤에 붙이세요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="bulletin board; notice board" />
+					<feat att="definition" val="A board where notices are posted to be seen by as many people as possible." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="인터넷에서 사람들이 자유롭게 글을 올리고 볼 수 있도록 만들어진 곳." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="익명 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자유 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="전용 게시판." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="게시판을 닫다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="게시판에 올리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="관객이 공연을 관람한 감상을 공연 사이트의 게시판에 올렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 인터넷 클럽은 정회원만 게시판에 글을 올릴 수 있게 되어 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="구직 정보를 얻으려면 어느 게시판으로 들어가야 하지?" />
+					<feat att="example" val="여기 취업 정보 게시판에 쓰인 글들을 읽으면 돼." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="bulletin board" />
+					<feat att="definition" val="In the Internet, a space where the Internet users can freely post and view opinions, news, etc." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="17308">
+			<feat att="homonym_number" val="1" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="고장" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="고장" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2005/gojang.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="지리 정보" />
+			<Sense att="id" val="1">
+				<feat att="annotation" val="주로 도시가 아닌 곳을 가리킬 때 쓴다." />
+				<feat att="definition" val="사람들이 사는 일정한 지역." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="그 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="낯선 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="내 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="다른 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="우리 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자기 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="작은 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="잘사는 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="제 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="큰 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 말." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 명소." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 문화." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 별미." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 분위기." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 사람." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 산물." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 살림." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 음식." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 출신." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 특산물." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장의 내력." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장의 놀이." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장의 명예." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장의 발전." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장의 역사." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장을 떠나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장을 방문하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장을 찾아들다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장에 가다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장에 머무르다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장에 살다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장에 오다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장에 찾아오다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 서울에서만 살아온 대학 친구를 우리 고장의 유명한 음식 축제에 데려갔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="산 좋고 물 맑은 우리 고장은 깨끗하고 살기 좋아서 도시에서 이사 오는 사람이 많다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="지수야 이 귤 먹어. 우리 고장 특산품이야." />
+					<feat att="example" val="맞다. 너 고향이 제주도라고 했지? 고마워." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="district; village" />
+					<feat att="definition" val="A certain range of area where people live together." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="annotation" val="주로 '~(의) 고장'으로 쓴다." />
+				<feat att="definition" val="어떤 물건이 많이 나거나 무엇으로 유명한 지역." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="맛의 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="선비의 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="인삼의 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="장수의 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="축제의 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 외국인 친구에게 맛의 고장 전라북도의 유명한 음식들을 소개해주었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 마을은 백 세가 넘는 할머니, 할아버지가 많아서 장수의 고장으로 불린다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="여기는 낙농업이 발달한 지역답게 목장이 많구나." />
+					<feat att="example" val="그래서 유제품의 고장으로 불리지." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="center of production; home" />
+					<feat att="definition" val="A region famous for something or for producing plenty of a certain produce, product, etc." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="18381">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="동사" />
+			<Lemma>
+				<feat att="writtenForm" val="고치다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="고치다" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2005/gochida.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="고치는" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="고치어" />
+				<feat att="pronunciation" val="고치어" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/20000/15000/18381_gochieo.wav" />
+				<feat att="pronunciation" val="고치여" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/20000/15000/18381_gochiyeo.wav" />
+				<FormRepresentation>
+					<feat att="type" val="준말" />
+					<feat att="writtenForm" val="고쳐" />
+					<feat att="pronunciation" val="고처" />
+					<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/46000/18381_gocheo.wav" />
+				</FormRepresentation>
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="고치니" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="고칩니다" />
+				<feat att="pronunciation" val="고침니다" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/20000/15000/18381_gochimnida.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<feat att="semanticCategory" val="삶 > 치료 행위" />
+			<feat att="semanticCategory" val="주생활 > 가사 행위" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="15629" />
+					<feat att="lemma" val="수리하다" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="65306" />
+					<feat att="lemma" val="수선하다" />
+					<feat att="homonymNumber" val="2" />
+				</SenseRelation>
+				<feat att="syntacticPattern" val="1이 2를 고치다" />
+				<feat att="definition" val="고장이 나거나 못 쓰게 된 것을 손질하여 쓸 수 있게 하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="전화기를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="집을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="차를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="컴퓨터를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="텔레비전을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 손재주가 좋아서 고장이 난 물건을 잘 고친다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 전원이 들어오지 않아 사용할 수 없는 친구의 컴퓨터를 고쳐 주었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이 차를 고치려면 돈이 얼마나 들까요?" />
+					<feat att="example" val="고장 난 부품이 비싼 거라 돈이 많이 들 것 같아요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="repair; mend" />
+					<feat att="definition" val="To fix something broken so that it can be used again. " />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="72154" />
+					<feat att="lemma" val="치료하다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="syntacticPattern" val="1이 2를 고치다" />
+				<feat att="definition" val="병을 낫게 하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="당뇨병을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="위장병을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정신병을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="질병을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="허리 디스크를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="민준이는 병원에서 큰 수술을 받고 허리 디스크를 고쳤다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 아내의 병을 고쳐 보려고 유명한 의사를 찾아 전국을 다녔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="너는 커서 뭐가 되고 싶니?" />
+					<feat att="example" val="아픈 사람의 병을 고쳐 주는 의사가 되고 싶어요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="heal" />
+					<feat att="definition" val="To cure a disease." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="3">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="15441" />
+					<feat att="lemma" val="바로잡다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="syntacticPattern" val="1이 2를 고치다" />
+				<feat att="definition" val="잘못되거나 틀린 것을 올바르게 하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="글을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="답을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="버릇을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자세를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="잘못을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 다리를 떠는 버릇을 고치기 위해서 노력했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 글에는 오타가 많기 때문에 책으로 출판하기 위해서는 많은 부분을 고쳐야 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="삼 번 문제의 답이 이 번이래." />
+					<feat att="example" val="그래? 처음에 4번으로 적었다가 2번으로 고쳤는데 맞았네." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="correct; reform" />
+					<feat att="definition" val="To put something right." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="4">
+				<feat att="syntacticPattern" val="1이 2를 고치다" />
+				<feat att="syntacticPattern" val="1이 2를 3으로 고치다" />
+				<feat att="definition" val="전과 다르게 바꾸다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="규정을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="내용을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="모양을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이름을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="제도를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="신세를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="아버지는 집을 한옥에서 양옥으로 고치기를 원하신다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이번에 회사의 규정을 많이 고쳤기 때문에 직원들이 혼란스럽지 않도록 바뀐 내용을 잘 홍보해야 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="너희 가게 이름이 바뀌었네?" />
+					<feat att="example" val="이번에 이전하면서 새롭게 고쳤는데 그전보다 장사가 더 잘되는 것 같아." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="change; modify" />
+					<feat att="definition" val="To make something different from its previous state or form." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="5">
+				<feat att="syntacticPattern" val="1이 2를 고치다" />
+				<feat att="definition" val="처지나 형편을 좋게 바꾸다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사정을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="신세를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="처지를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="팔자를 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="형편을 고치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="평생 가난하게 살았던 지수는 돈 많은 남자와 결혼해서 신세를 고쳤다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="민준이는 작년에 일자리를 잃어서 형편이 어려웠는데 최근 복권에 당첨돼서 팔자를 고쳤다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="유민이가 대기업 사장이 되었다는 소식 들었어?" />
+					<feat att="example" val="응, 유민이야말로 노력을 통해서 가난을 극복하고 처지를 고쳤어." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="improve" />
+					<feat att="definition" val="To make one's situation or circumstances better." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="18856">
+			<feat att="homonym_number" val="2" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="고장" />
+			</Lemma>
+			<feat att="origin" val="故障" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="고ː장" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/33000/18856_go-jang.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="18858" />
+				<feat att="writtenForm" val="고장나다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="기계나 장치 등이 제대로 작동하지 않음." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="기계 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="부품 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="심각한 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="잦은 고장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장 상태." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장이 나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장이 생기다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장을 내다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="엘리베이터 고장으로 우리는 십 층까지 계단으로 올라가야 했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="학교 앞 사거리는 신호등이 고장이 잦아서 항상 교통이 혼잡하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 집은 수도가 고장이 나서 물 한 방울 나오지 않아 생수를 사서 쓰고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="여행 가서 사진 많이 찍었어?" />
+					<feat att="example" val="아니. 카메라가 고장이 나서 하나도 못 찍었어." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="defect; something wrong" />
+					<feat att="definition" val="A machine, device, etc., not operating normally because it is broken." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="(속된 말로) 사람 몸이 아프거나 탈이 생긴 것." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장이 생기다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="머리가 고장이 나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="어딘가 고장이 나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="위가 고장이 나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고장을 일으키다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="김 대리는 종합 검진을 받고 자신의 장이 고장이 났다는 것을 알았다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="언니는 교통사고를 당한 후 기억력에 고장을 일으켜 가족을 전혀 알아보지 못했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="많이 아파 보이는데 괜찮아?" />
+					<feat att="example" val="어제 과음을 했더니 위가 고장이 났나 봐." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="medical problem; disorder" />
+					<feat att="definition" val="(slang) One's body becoming sick or suffering from a disorder." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="19950">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="단장" />
+			</Lemma>
+			<feat att="origin" val="丹粧" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="단장" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/digeut_2005/danjang.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="90391" />
+				<feat att="writtenForm" val="단장되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="41490" />
+				<feat att="writtenForm" val="단장하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="87590" />
+					<feat att="lemma" val="화장" />
+					<feat att="homonymNumber" val="1" />
+				</SenseRelation>
+				<feat att="definition" val="얼굴이나 머리, 옷차림 등을 예쁘게 꾸밈." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="몸 단장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="얼굴 단장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="옷 단장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 끝내다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 마무리하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 마치다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="결혼기념일 날 아내는 예쁘게 단장을 하고서 남편을 기다렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="내가 사 준 노란 원피스로 단장을 하고 나온 지수는 그날따라 더욱 예뻐 보였다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="아직도 단장이 덜 끝났어요?" />
+					<feat att="example" val="화장을 거의 다 해 가니까 조금만 더 기다려 줘요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="adorning oneself" />
+					<feat att="definition" val="The act of making up one's face, grooming hair, and dressing up." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="건물이나 시설 등을 손질하여 꾸밈." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="새 단장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장이 끝나다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 새로 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="단장을 시작하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이 낡은 야외 물놀이장은 올해 새롭게 단장이 된다고 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="단장이 끝난 전시관은 전보다 더 깔끔하고 세련된 모습으로 바뀌었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="며느리도 들어오는데 집 안 단장을 새로 해야 하지 않을까요?" />
+					<feat att="example" val="그래야죠. 벽지도 새로 바르고 가구도 바꿉시다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="decoration" />
+					<feat att="definition" val="The act of repairing and bedecking a building, facility, etc." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="22142">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="형용사" />
+			<Lemma>
+				<feat att="writtenForm" val="올바르다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="올바르다" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/21000/22142_olbareuda.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="올바른" />
+				<feat att="pronunciation" val="올바른" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="올발라" />
+				<feat att="pronunciation" val="올발라" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/48000/22142_olballa.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="올바르니" />
+				<feat att="pronunciation" val="올바르니" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/48000/22142_olbareuni.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="올바릅니다" />
+				<feat att="pronunciation" val="올바름니다" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="semanticCategory" val="인간 > 태도" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="53089" />
+					<feat att="lemma" val="똑바르다" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="syntacticPattern" val="1이 올바르다" />
+				<feat att="definition" val="말이나 생각, 행동 등이 규범에서 벗어남이 없이 옳고 바르다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="올바른 습관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="올바른 지적." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="올바른 태도." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방법이 올바르다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="생각이 올바르다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="치과 의사는 환자들에게 올바른 칫솔질을 가르쳤다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="교사는 항상 올바른 행동으로 학생들에게 모범을 보여야 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그의 생각과 태도는 늘 올발랐기 때문에 사람들은 그를 따를 수밖에 없었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="아빠, 생신 때 제가 뭘 해드릴까요?" />
+					<feat att="example" val="아무것도 필요 없단다. 너만 건강하고 올바르게 자라다오." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="proper; honest" />
+					<feat att="definition" val="One's remarks, thoughts, behaviors, etc., being right and correct without breaking the norms." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="23460">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="개발" />
+			</Lemma>
+			<feat att="origin" val="開發" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="개발" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2006/gaebal.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="15747" />
+				<feat att="writtenForm" val="개발되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="62257" />
+				<feat att="writtenForm" val="개발하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="집 구하기" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="토지나 천연자원 등을 이용하기 쉽거나 쓸모 있게 만듦." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="국토 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="수자원 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="유전 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="택지 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="토지 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발 계획." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발 지구." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발을 촉진하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발에 힘쓰다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="정부는 버려진 땅을 찾아 공원으로 개발을 했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 회사는 유전 개발을 통해 많은 양의 석유를 생산하고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="주민들이 왜 저렇게 시위를 해요?" />
+					<feat att="example" val="주변 환경을 고려하지 않는 무분별한 토지 개발 때문이에요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="development; exploitation" />
+					<feat att="definition" val="The act of making land, natural resources, etc. useful, or easy to utilize." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="25752" />
+					<feat att="lemma" val="계발" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="능력이나 지식 등을 더 나아지게 함." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="음악적 재능 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인의 능력 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="학생의 능력 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="정부는 여러 교육 프로그램으로 공무원들의 능력 개발에 도움을 줄 계획이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 회사는 직원들의 기술 개발을 위한 지원을 아끼지 않는다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="지수가 피아노에 재능이 있는 것 같아." />
+					<feat att="example" val="그래? 재능 개발을 할 수 있는 학원을 알아봐야 되겠군." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="development" />
+					<feat att="definition" val="The act of improving one's ability, knowledge, etc." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="3">
+				<feat att="definition" val="한 나라의 경제나 특정 분야의 산업을 더 나아지게 하거나 커지게 함." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="분야 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="산업 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발을 촉진하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 회사는 자동차 산업 개발을 위해 연구비를 투자하였다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="다양한 여행 상품이 개발이 되면서 관광객이 점점 더 늘고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이 나라의 경제가 단기간에 성장할 수 있었던 원인은 무엇일까요?" />
+					<feat att="example" val="정부와 기업, 국민 모두가 경제 개발에 힘쓴 덕분이죠." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="development" />
+					<feat att="definition" val="The act of improving or expanding the economy of a nation or a certain industry." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="4">
+				<feat att="definition" val="새로운 물건을 만들거나 새로운 생각을 내놓음." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="무기 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="신제품 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="프로그램 개발." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개발을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리 회사는 통증 치료에 효과적인 신약을 개발 중이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="연구 팀은 기존 제품보다 기능이 향상된 신제품 개발에 힘쓰고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="기존의 문제들로는 학생들의 사고력을 제대로 측정할 수 없습니다." />
+					<feat att="example" val="문제 개발을 통해 개선하도록 하겠습니다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="development; invention" />
+					<feat att="definition" val="The act of creating a new product or idea." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="24074">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="교체" />
+			</Lemma>
+			<feat att="origin" val="交替/交遞" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="교체" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2005/gyoche.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="32452" />
+				<feat att="writtenForm" val="교체되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="32455" />
+				<feat att="writtenForm" val="교체하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="문제 해결하기(분실 및 고장)" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="46832" />
+					<feat att="lemma" val="대체" />
+					<feat att="homonymNumber" val="1" />
+				</SenseRelation>
+				<feat att="definition" val="특정한 역할을 하던 사람이나 사물, 제도 등을 다른 사람, 사물, 제도 등으로 바꿈." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="부품 교체." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="선수 교체." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="세대 교체." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정권 교체." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="교체 비용." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="교체 투입." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="교체가 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="교체를 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="야당은 국민의 압도적인 지지를 받아 정권 교체를 이루었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="축구 경기 중 선수들의 잦은 부상으로 세 차례의 교체가 있었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="컴퓨터가 오래돼서 부품을 몇 개 바꾸셔야 되겠네요." />
+					<feat att="example" val="그럼 부품 교체 비용은 얼마나 들까요?" />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="replacement; substitution" />
+					<feat att="definition" val="The act of replacing a person, object, system, etc., in a certain role with another person, object, system, etc." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="24892">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="부사" />
+			<Lemma>
+				<feat att="writtenForm" val="이어서" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="이어서" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/ieung_2005/ieoseo.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="고급" />
+			<feat att="semanticCategory" val="개념 > 순서" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="24875" />
+					<feat att="lemma" val="이어" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="앞의 말이나 행동에 계속하여." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이어서 강의하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이어서 나오다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이어서 열리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="이어서 식사하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="바로 이어서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="곧 이어서 회장님의 연설이 있겠습니다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="팀 회의가 끝나고 이어서 전체 회의가 열렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오늘 수업에서는 어제에 이어서 한국어의 어순에 대해서 공부하기로 하겠습니다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이어서 하는 프로그램 뭔 줄 알아?" />
+					<feat att="example" val="응. 드라마 할 시간이네." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="sequentially; in a sequential manner" />
+					<feat att="definition" val="Continuously after the preceding words or actions." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="25949">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="경찰" />
+			</Lemma>
+			<feat att="origin" val="警察" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="경ː찰" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/41000/25949_gyeong-chal.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<feat att="semanticCategory" val="정치와 행정 > 사법 및 치안 주체" />
+			<feat att="subjectCategiory" val="소개하기(자기소개)" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="사회의 질서를 지키고 국민의 안전과 재산을 보호하는 일. 또는 그러한 일을 맡은 국가 기관." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰 조사." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰 차량." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰에 신고하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰에 연행되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰에 체포되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="학교 근방에 도난 사건이 잇따라 일어나 경찰이 수사에 나섰다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="경찰은 이번 살인 사건의 용의자는 이십 대의 젊은 남성이라고 밝혔다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="police; policing" />
+					<feat att="definition" val="The act of keeping order in society and protecting people and property from crimes; or a government agency in charge of such tasks." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="25950" />
+					<feat att="lemma" val="경찰관" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="사회의 질서를 지키고 국민의 안전과 재산을 보호하는 일을 하는 공무원." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사복 경찰." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="의무 경찰." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="전투 경찰." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="해양 경찰." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰이 범인을 잡다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰이 출동하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰을 부르다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰에 포위되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰에게 길을 묻다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="도둑은 경찰을 보자마자 도망치기 시작했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="교통사고가 난 지점에 경찰이 와서 사고의 원인을 조사했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="저기 길에 누가 쓰러져 있어. 어떻게 하지?" />
+					<feat att="example" val="경찰을 부르는 게 제일 좋을 것 같아." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="police officer; cop" />
+					<feat att="definition" val="A government employee whose job it is to keep order in society and protect people and property from crimes." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="25950">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="경찰관" />
+			</Lemma>
+			<feat att="origin" val="警察官" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="경ː찰관" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/41000/25950_gyeong-chalgwan.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="semanticCategory" val="정치와 행정 > 사법 및 치안 주체" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="유의어" />
+					<feat att="id" val="25949" />
+					<feat att="lemma" val="경찰" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="사회의 질서를 지키고 국민의 안전과 재산을 보호하는 일을 하는 공무원." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="교통 경찰관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="담당 경찰관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사법 경찰관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="일선 경찰관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="현직 경찰관." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰관이 범인을 쫓다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰관이 출동하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="음주 운전을 근절하기 위해 경찰관의 음주 운전 단속이 강화되었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="소매치기가 지갑을 뺏어 달아나다가 마침 주변을 순찰하던 경찰관에게 붙잡혔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="어린이 납치 사건의 범인이 오늘 경찰관에게 체포되었대요." />
+					<feat att="example" val="요즘 밤길을 다니기가 무서웠는데 다행이네요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="police officer; cop" />
+					<feat att="definition" val="A government employee whose job it is to keep order in society and protect people and property from crimes." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="25960">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="경찰서" />
+			</Lemma>
+			<feat att="origin" val="警察署" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="경ː찰써" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/41000/25960_gyeong-chalsseo.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<feat att="semanticCategory" val="사회 생활 > 직장" />
+			<feat att="subjectCategiory" val="소개하기(자기소개)" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="76834" />
+					<feat att="lemma" val="지서" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="80561" />
+					<feat att="lemma" val="파출소" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<Multimedia>
+					<feat att="type" val="사진" />
+					<feat att="label" val="경찰서" />
+					<feat att="url" val="http://dicmedia.korean.go.kr:8899/multimedia/multimedia_files/convert/20151225/245109/PIC000260019_700X466.jpg" />
+				</Multimedia>
+				<feat att="definition" val="한 지역의 경찰 일을 맡아보는 관청." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="관할 경찰서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="지역 경찰서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰서에 들어가다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰서에 수감되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰서에 신고하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경찰서에 연행되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 길을 잃은 어린아이를 경찰서에 데려다 주었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="형은 지나가는 사람과 싸우다가 경찰서에 불려 가 조사를 받았다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="어제 집에 도둑이 들었어요." />
+					<feat att="example" val="경찰서에는 신고했어요?" />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="police station" />
+					<feat att="definition" val="A government office responsible for the police administration of a region." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="26690">
+			<feat att="homonym_number" val="2" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="관형사" />
+			<Lemma>
+				<feat att="writtenForm" val="개인적" />
+			</Lemma>
+			<feat att="origin" val="個人的" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="개ː인적" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/33000/26690_gae-injeog.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="가봐라" />
+				<feat att="id" val="60089" />
+				<feat att="writtenForm" val="개인" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="인간관계" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="개인이 가진. 또는 개인과 관계되는." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 감정." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 견해." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 경험." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 관심." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 문제." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 삶." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 욕구." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 의견." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 의지." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 입장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 재능." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 차원." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적 친분." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 종이에 이름과 주소, 전화번호 등의 개인적 정보를 적었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="사장님은 사원을 뽑을 때 개인적 감정은 배제하고 그 사람의 능력만을 보신다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이 미술 작품을 어떻게 보십니까?" />
+					<feat att="example" val="제 개인적 견해로는 작가의 의도가 잘 표현된 훌륭한 작품 같습니다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="personal" />
+					<feat att="definition" val="Belonging to or related to a person." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="26691">
+			<feat att="homonym_number" val="1" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="개인적" />
+			</Lemma>
+			<feat att="origin" val="個人的" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="개ː인적" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2006/gae-injeok.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="가봐라" />
+				<feat att="id" val="60089" />
+				<feat att="writtenForm" val="개인" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="인간관계" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="개인이 가진 것. 또는 개인과 관계되는 것." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적인 사정." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적인 일." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적인 입장." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적인 질문." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개인적으로 이용하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="선배는 나에게 나이와 출신 학교 등 몇 가지 개인적인 것들을 물어봤다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="사람마다 취향이 다르겠지만 나는 개인적으로 재미있는 영화를 좋아한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="김 부장님은 왜 회의에 안 오셨습니까?" />
+					<feat att="example" val="개인적인 집안 사정으로 참석하지 못했습니다. " />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="being individual" />
+					<feat att="definition" val="Something owned by an individual, or related to an individual." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="27246">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="고지서" />
+			</Lemma>
+			<feat att="origin" val="告知書" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="고ː지서" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/33000/27246_go-jiseo.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="고급" />
+			<feat att="subjectCategiory" val="경제·경영" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="국가나 공공 기관에서 납입해야 하는 금액에 대한 정보를 알려 주는 문서." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="범칙금 고지서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="세금 고지서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="전자 고지서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고지서 발급." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고지서를 받다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고지서를 분실하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="고지서를 지참하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 세금 고지서를 가지고 은행에 가서 납부했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="동생은 고지서를 잃어버려서 납부 기간 내 범칙금을 내는 걸 깜박했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="전기세 고지서가 왔는데 이번 달은 돈을 많이 내야 돼." />
+					<feat att="example" val="에어컨을 오래 켜 놓고 있어서 그래." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="official billing" />
+					<feat att="definition" val="A statement showing information on money that should be paid to a state or public organization. " />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="29010">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="진행" />
+			</Lemma>
+			<feat att="origin" val="進行" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="진ː행" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/10000/10000/29010_jin-haeng.wav" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="29756" />
+				<feat att="writtenForm" val="진행되다" />
+			</RelatedForm>
+			<RelatedForm>
+				<feat att="type" val="파생어" />
+				<feat att="id" val="62339" />
+				<feat att="writtenForm" val="진행하다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<feat att="subjectCategiory" val="대중 매체" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="앞으로 나아감." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행 방향." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행 속도." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행 신호." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 사람들의 진행 방향을 따라 걸었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="교차로를 지나 직진 차선으로 진입하면 정체 없이 진행이 가능하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="하마터면 앞 차에 부딪힐 뻔했어요." />
+					<feat att="example" val="앞 차의 진행을 잘 보고 운전하세요." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="progress" />
+					<feat att="definition" val="The act of moving forward." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="일 등을 계속해서 해 나감." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방송 진행." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="회의 진행." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행 상황." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행 요원." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행이 느리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행이 되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행이 빠르다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행이 순조롭다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="진행을 하다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="걱정과는 달리 행사의 진행이 순조롭게 이루어져서 다행이다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="도로 공사 진행이 자꾸 늦춰져서 시민들의 불만이 늘어나고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="지금까지의 작업 진행 상황을 보고하세요." />
+					<feat att="example" val="아무 문제없이 순조롭게 진행되고 있습니다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="progress" />
+					<feat att="definition" val="The act of continuously doing something." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="29728">
+			<feat att="homonym_number" val="2" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="관형사" />
+			<Lemma>
+				<feat att="writtenForm" val="각" />
+			</Lemma>
+			<feat att="origin" val="各" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="각" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/sound_file/giyeok_2005/gak.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="중급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="여럿을 하나하나씩 떼어 놓은 낱낱의, 따로따로의." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 가정." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 개인." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 대학." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 부서." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 부처." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 지방." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 학과." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 학교." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="각 회사." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리는 배낭 하나만 메고 세계 각 나라를 돌아다녔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오디션을 보기 위해 전국의 각 지방에서 가수 지망생들이 올라왔다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="대화" />
+					<feat att="example" val="이번 중간고사 시험 범위가 어떻게 돼?" />
+					<feat att="example" val="각 반마다 진도가 다 달라서 아직 시험 범위가 안 정해졌대." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="each; every" />
+					<feat att="definition" val="Each and every one of multiple things or people." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="29770">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="동사" />
+			<Lemma>
+				<feat att="writtenForm" val="알리다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="알리다" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/21000/29770_allida.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="알리어" />
+				<feat att="pronunciation" val="알리어" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/29000/29770_allieo.wav" />
+				<feat att="pronunciation" val="알리여" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/30000/29000/29770_alliyeo.wav" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="알리니" />
+			</WordForm>
+			<RelatedForm>
+				<feat att="type" val="가봐라" />
+				<feat att="id" val="89445" />
+				<feat att="writtenForm" val="알다" />
+			</RelatedForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<feat att="semanticCategory" val="인간 > 인지 행위" />
+			<Sense att="id" val="1">
+				<feat att="syntacticPattern" val="1이 2에/에게 3을 알리다" />
+				<feat att="syntacticPattern" val="1이 2에/에게 3-고 알리다" />
+				<feat att="syntacticAnnotation" val="'3에 대하여'로도 쓴다." />
+				<feat att="definition" val="모르던 것이나 잊었던 것을 깨닫게 하거나 알게 하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="결과를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="뜻을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="방법을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사실을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="상황을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="생각을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정보를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="중요성을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="주소를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="본부에 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="회사에 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="국민들에게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="소비자에게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="시민들에게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="넌지시 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="미리 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="사전에 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="소상히 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자세히 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정확히 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="차근차근 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="친절하게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="나는 집에 계시는 부모님께 오늘은 외박을 한다고 미리 알렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="우리는 신문사에 편지를 써서 우리의 억울한 사정을 세상에 알릴 계획이었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그녀는 사장이 우리의 업무 태도를 점검한다는 정보를 내게 넌지시 알려 주었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="승규는 무사히 한국에 도착했다며 자신의 안부를 가족들에게 알리는 전화를 했다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="inform; tell; notify" />
+					<feat att="definition" val="To let someone realize or know what he/she did not know or forgot." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="syntacticPattern" val="1이 2에/에게 3을 알리다" />
+				<feat att="syntacticPattern" val="1이 2에/에게 3-고 알리다" />
+				<feat att="syntacticAnnotation" val="'3에 대하여'로도 쓴다." />
+				<feat att="definition" val="다른 사람에게 어떤 것을 소개하여 알게 하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="성과를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="우수성을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="정책을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="제품을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="세계에 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="일반에 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="국민들에게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="소비자에게 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그는 자기 회사 제품을 소비자에게 알리기 위해 홍보 활동을 하고 있다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="학생들이 자기 학교에서 미술 대회를 연다고 알리는 포스터를 벽에 붙였다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="사람은 자기 자신을 사람들에게 알리고 자랑스러운 점을 내세우고 싶어 한다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="이번 박람회는 우리 문화의 우수성을 전 세계에 알리는 좋은 기회가 될 것이다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="advertise; publicize" />
+					<feat att="definition" val="To tell someone about something so that he/she knows it." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="3">
+				<feat att="syntacticPattern" val="1이 2를 알리다" />
+				<feat att="definition" val="어떤 사실이나 현상을 나타내거나 표시하다." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="시계가 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="가을을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개시를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="개점을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="새벽을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="시간을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="시작을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="자정을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="종료를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="출발을 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="두 시를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="한 시를 알리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="자정을 알리는 시계 소리에 나는 순간 잠이 깼다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="귀뚜라미 소리와 서늘한 바람이 드디어 가을이 왔음을 알렸다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="수업 시작을 알리는 종소리가 울리자 아이들은 우르르 교실로 몰려들었다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="그는 어둠 속에서 입구를 알리는 표지판을 보고 겨우 출입구를 찾아 탈출했다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="tell; signal" />
+					<feat att="definition" val="To indicate or show a certain fact or phenomenon." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="29821">
+			<feat att="homonym_number" val="1" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="명사" />
+			<Lemma>
+				<feat att="writtenForm" val="경보" />
+			</Lemma>
+			<feat att="origin" val="警報" />
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="경ː보" />
+				<feat att="sound" val="https://dicmedia.korean.go.kr/multimedia/naver/2016/40000/39000/29821_gyeong-bo.wav" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="고급" />
+			<feat att="subjectCategiory" val="사회 문제" />
+			<Sense att="id" val="1">
+				<SenseRelation>
+					<feat att="type" val="참고어" />
+					<feat att="id" val="76996" />
+					<feat att="lemma" val="주의보" />
+					<feat att="homonymNumber" val="0" />
+				</SenseRelation>
+				<feat att="definition" val="위험에 대비하여 주의하고 조심할 수 있도록 미리 알리는 일, 또는 그 보도나 신호." />
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="가스 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="기상 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="안개 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="태풍 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="홍수 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="화재 위험 경보." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경보가 발령되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경보가 울리다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="구" />
+					<feat att="example" val="경보가 해제되다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="폭풍이 잦아든 지 약 두 시간이 지나서야 라디오에선 경보 해제를 발표했다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="땡땡 울리는 종소리가 마치 공습을 알리는 경보 같았다." />
+				</SenseExample>
+				<SenseExample>
+					<feat att="type" val="문장" />
+					<feat att="example" val="오늘 새벽에 근처 금은방에 도둑이 드는 바람에 밤새도록 경보가 울려 잠을 거의 못 잤다." />
+				</SenseExample>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="alarm; warning" />
+					<feat att="definition" val="Warning of danger in advance for people to be prepared and cautious, or this kind of announcement or signal. " />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+	</Lexicon>
+</LexicalResource>

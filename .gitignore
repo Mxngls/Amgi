@@ -1,5 +1,12 @@
+# pychache
+__pycache__
+
 #.DS_Store
 .DS_Store
+
+# apkg/xml-files
+.apkg
+.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

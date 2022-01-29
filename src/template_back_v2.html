@@ -1,0 +1,97 @@
+<!-- Not working because of how the Ankie template engine works.
+
+<!DOCTYPE html>
+<html>
+</br>
+<p class="hangul">{{hangul}}</p>
+</br>
+<div id="audio" style="display:none">{{wav_src}}</div>
+<div class="pronounciation" onclick="playAudio()">【{{pronounciation}}】</div>
+<hr id="answer">
+<div id="container" onload="renderList()"></div>
+<p class="tags">{{tags}}</p>
+<script>
+    (function renderList() {
+
+        var ul = document.createElement('ul');
+
+        document.getElementById('container').appendChild(ul)
+
+        for (var i = 0; i < 6; i++) {
+            createElements(i)
+        }
+
+        function createElements(i) {
+
+            var li = document.createElement('li')
+
+            li.id = `el${i + 1}`
+            li.classList = "visible"
+            ul.appendChild(li);
+
+            createContent(i)
+
+            function createContent(index) {
+
+                var a = document.createElement('a');
+                a.id = `el${index + 1}`;
+                a.classList = `translation${index + 1}`;
+                a.onclick = function () { expander(index + 1) };
+                var tr = `{translation${index + 1}}`;
+                brackets = {}
+                a.innerHTML = [brackets.slice(0, 1), tr, brackets.slice(1)].join('')
+
+                li.appendChild(a)
+
+                var div = document.createElement('div')
+                div.id = `definition${index + 1}`
+                div.classList = `definition${index + 1}`
+                var df = `{definition${index + 1}}`
+                brackets = {}
+                div.innerHTML = [brackets.slice(0, 1), df, brackets.slice(1)].join('')
+
+                li.appendChild(div)
+
+                var br = document.createElement('br')
+
+                li.appendChild(br)
+
+                var ul_2 = document.createElement('ul')
+                ul_2.id = `examples${index + 1}`
+                ul_2.classList = `examples${index + 1}`
+                ul_2.style = "display: none;"
+                var ex = `{examples${index + 1}}`
+                brackets = '{}'
+                ul_2.innerHTML = [brackets.slice(0, 1), ex, brackets.slice(1)].join('')
+
+                li.appendChild(ul_2)
+
+                li.appendChild(br)
+            }
+        }
+    })();
+    function expander(i) {
+        var df = document.getElementById(`definition${i}`);
+        var ex = document.getElementById(`examples${i}`);
+        if (ex.style.display === "block") {
+            ex.style.display = "none"
+        } else {
+            ex.style.display = "block"
+        }
+    };
+    function playAudio() {
+        audioDiv = document.getElementById("audio");
+        audio = audioDiv.getElementsByTagName("*");
+        audio[0].click();
+    };
+    for (var i = 1; i < 5; i++) {
+        var el = document.getElementById(`el${i}`);
+        var tr = document.getElementById(`definition${i}`);
+        if (el !== null && tr !== null) {
+            if (tr.innerHTML.trim().length < 2) {
+                el.classList.replace("visible", "hidden")
+            };
+        };
+    };
+</script>
+</html> -->
